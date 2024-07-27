@@ -36,3 +36,18 @@ rm -rf /usr/local/bin/terraform
 ### Step-04: MACOS: Install AWS CLI
 - [AWS CLI Install](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
 - [Install AWS CLI - MAC](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-mac.html#cliv2-mac-install-cmd)
+
+```
+# Install AWS CLI V2
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+sudo installer -pkg AWSCLIV2.pkg -target /
+which aws
+aws --version
+
+# Uninstall AWS CLI V2 (NOT REQUIRED)
+which aws
+ls -l /usr/local/bin/aws
+sudo rm /usr/local/bin/aws
+sudo rm /usr/local/bin/aws_completer
+sudo rm -rf /usr/local/aws-cli
+```
