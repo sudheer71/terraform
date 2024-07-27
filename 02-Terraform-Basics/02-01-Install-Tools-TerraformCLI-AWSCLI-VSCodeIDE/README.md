@@ -57,3 +57,4 @@ sudo rm /usr/local/bin/aws_completer
 sudo rm -rf /usr/local/aws-cli
 
 ```
+check now 
