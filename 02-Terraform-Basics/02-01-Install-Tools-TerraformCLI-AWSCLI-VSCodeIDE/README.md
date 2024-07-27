@@ -63,6 +63,7 @@ sudo rm -rf /usr/local/aws-cli
 - Generate Security Credentials using AWS Management Console
   - Go to Services -> IAM -> Users -> "Your-Admin-User" -> Security Credentials -> Create Access Key
 - Configure AWS credentials using SSH Terminal on your local desktop
+
 ```
 # Configure AWS Credentials in command line
 $ aws configure
