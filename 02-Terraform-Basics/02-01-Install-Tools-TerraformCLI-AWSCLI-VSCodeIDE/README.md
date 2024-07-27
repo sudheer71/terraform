@@ -10,7 +10,7 @@
 - [Download Terraform MAC](https://www.terraform.io/downloads.html)
 - [Install CLI](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 - Unzip the package
-
+```
 # Copy binary zip file to a folder
 - mkdir /Users/<YOUR-USER>/Documents/terraform-install
 - COPY Package to "terraform-install" folder
