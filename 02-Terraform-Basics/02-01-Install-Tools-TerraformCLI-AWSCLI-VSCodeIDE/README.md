@@ -31,6 +31,7 @@ terraform version
 rm -rf /usr/local/bin/terraform
 
 ``` 
+
 ## Step-03: MACOS: IDE for Terraform - VS Code Editor
 - [Microsoft Visual Studio Code Editor](https://code.visualstudio.com/download)
 - [Hashicorp Terraform Plugin for VS Code](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform)
@@ -39,6 +40,7 @@ rm -rf /usr/local/bin/terraform
 ### Step-04: MACOS: Install AWS CLI
 - [AWS CLI Install](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
 - [Install AWS CLI - MAC](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-mac.html#cliv2-mac-install-cmd)
+
 
 ```
 # Install AWS CLI V2
