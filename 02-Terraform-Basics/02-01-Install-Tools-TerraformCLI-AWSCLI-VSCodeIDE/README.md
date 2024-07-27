@@ -28,6 +28,7 @@ terraform version
 
 # To Uninstall Terraform (NOT REQUIRED)
 rm -rf /usr/local/bin/terraform
+
 ``` 
 ## Step-03: MACOS: IDE for Terraform - VS Code Editor
 - [Microsoft Visual Studio Code Editor](https://code.visualstudio.com/download)
