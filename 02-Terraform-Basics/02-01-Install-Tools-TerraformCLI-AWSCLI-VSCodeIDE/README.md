@@ -74,3 +74,4 @@ Default output format [None]: json
 
 # Verify if we are able list S3 buckets
 aws s3 ls
+```
