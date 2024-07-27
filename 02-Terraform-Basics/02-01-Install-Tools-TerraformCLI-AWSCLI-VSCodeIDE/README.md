@@ -55,6 +55,7 @@ ls -l /usr/local/bin/aws
 sudo rm /usr/local/bin/aws
 sudo rm /usr/local/bin/aws_completer
 sudo rm -rf /usr/local/aws-cli
+
 ```
 ## Step-05: MACOS: Configure AWS Credentials 
 - **Pre-requisite:** Should have AWS Account.
