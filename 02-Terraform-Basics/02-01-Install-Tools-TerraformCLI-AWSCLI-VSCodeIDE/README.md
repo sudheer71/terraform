@@ -20,8 +20,8 @@ unzip <PACKAGE-NAME>
 unzip terraform_0.14.3_darwin_amd64.zip
 
 # Copy terraform binary to /usr/local/bin
--echo $PATH
-mv terraform /usr/local/bin
+- echo $PATH
+- mv terraform /usr/local/bin
 
 # Verify Version
 terraform version
