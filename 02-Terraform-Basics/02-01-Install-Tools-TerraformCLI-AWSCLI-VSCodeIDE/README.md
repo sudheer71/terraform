@@ -32,7 +32,7 @@ rm -rf /usr/local/bin/terraform
 
 ``` 
 
-## Step-03: MACOS: IDE for Terraform - VS Code Editor
+### Step-03: MACOS: IDE for Terraform - VS Code Editor
 - [Microsoft Visual Studio Code Editor](https://code.visualstudio.com/download)
 - [Hashicorp Terraform Plugin for VS Code](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform)
 
