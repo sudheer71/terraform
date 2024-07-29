@@ -54,7 +54,8 @@ resource "aws_instance" "ec2demo" { # BLOCK
   - Local Values Block
   - Data Sources Block
   - Modules Block
-- So  categorized these things into three major blocks.
+- So we can categorized these things into three major blocks.
+
 
 
 
