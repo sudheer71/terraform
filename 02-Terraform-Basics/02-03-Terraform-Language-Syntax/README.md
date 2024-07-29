@@ -60,6 +60,7 @@ resource "aws_instance" "ec2demo" { # BLOCK
     - Provider Block
     - Resource Block
   - Variable Blocks
+  
   - Calling / Referencing Blocks
   
 
