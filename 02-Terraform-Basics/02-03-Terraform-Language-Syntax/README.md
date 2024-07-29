@@ -58,7 +58,7 @@ resource "aws_instance" "ec2demo" { # BLOCK
   - Fundamental Blocks
     - Terraform Settings Block
     - Provider Block
-  -  Resource Block
+    - Resource Block
   - Variable Blocks
   - Calling / Referencing Blocks
   
