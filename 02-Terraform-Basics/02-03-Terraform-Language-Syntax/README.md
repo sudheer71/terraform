@@ -62,7 +62,6 @@ resource "aws_instance" "ec2demo" { # BLOCK
   - Variable Blocks
     - Output Values Block
     - Local Values Block
-
   - Calling / Referencing Blocks
   
 
