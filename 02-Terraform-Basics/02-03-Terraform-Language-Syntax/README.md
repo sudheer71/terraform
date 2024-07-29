@@ -42,7 +42,8 @@ resource "aws_instance" "ec2demo" { # BLOCK
 
 ## Step-04: Understand about Terraform Top-Level Blocks
 ## Terraform Top-Level Blocks
-  - 
+  - Terraform language uses a limited number of top-level block types, which are blocks that can appear outside of any other block in a TF configuration file. 
+  
 
 - Discuss about Terraform Top-Level blocks
   - Terraform Settings Block
