@@ -6,7 +6,7 @@ terraform {
   # NOTE : "The right most it is allowed in this ~>"
   
   required_providers {
-    aws = {         #   In side the This required_providers block aws is a argument with map information in side that  
+    aws = {         #   In side the This required_providers block aws is a argument block with map information in side that  
       
     }
   }
