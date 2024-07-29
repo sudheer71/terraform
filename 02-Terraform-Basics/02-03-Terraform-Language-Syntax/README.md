@@ -42,6 +42,7 @@ resource "aws_instance" "ec2demo" { # BLOCK
 
 ## Step-04: Understand about Terraform Top-Level Blocks
 ## Terraform Top-Level Blocks
+  - 
 
 - Discuss about Terraform Top-Level blocks
   - Terraform Settings Block
