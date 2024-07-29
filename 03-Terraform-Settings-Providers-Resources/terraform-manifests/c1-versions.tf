@@ -1,1 +1,4 @@
 ## Terraform Block 
+resource "" "name" {
+  
+}
