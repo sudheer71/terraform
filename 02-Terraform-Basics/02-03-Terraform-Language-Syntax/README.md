@@ -69,6 +69,7 @@ resource "aws_instance" "ec2demo" { # BLOCK
     ![alt text](image-2.png)
 
   ## Terraform Basic Blocks
+  ![alt text](image.png)
   
 
 
