@@ -53,3 +53,4 @@ resource "aws_instance" "ec2demo" { # BLOCK
 
 ## sample 
 wrokPlace
+![alt text](image.png)
