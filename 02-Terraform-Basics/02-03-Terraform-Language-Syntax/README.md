@@ -56,6 +56,7 @@ resource "aws_instance" "ec2demo" { # BLOCK
   - Modules Block
 - So we can categorized these things into three major blocks.
   - Fundamental Blocks
+  - Variable Blocks
   
 
 
