@@ -5,7 +5,7 @@ terraform {
   # If "~> 1.9"   allows 1.10.xx 1.11.xx
   # NOTE : "The right most it is allowed in this ~>"
   required_providers {
-    aws = {         #   This is a argument with map data 
+    aws = {         #   In side the This is a argument with map data 
       
     }
   }
