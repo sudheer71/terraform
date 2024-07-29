@@ -48,6 +48,8 @@ output "ec2_instance_publicip" {
 # Create S3 Bucket - with Input Variables & Local Values
 /*locals {
   bucket-name-prefix = "${var.app_name}-${var.environment_name}"
+}
+
 */
 
 #####################################################################
