@@ -4,3 +4,4 @@
 - So that respect to provider is going to get downloaded from this Terraform registry to your local desktop.
 ![alt text](image.png)
 ![alt text](image-1.png)
+![alt text](image-2.png)
