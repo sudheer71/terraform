@@ -1,9 +1,6 @@
 ## Terraform Providers 
 - As a Terraform admin in my local desktop first i have to install the Terraform CLI.
-
-And so whenever what happens means
-
-like whenever you run that Terraform init command
+- so whenever what happens meanslike whenever you run that Terraform init command
 
 what happens is like, so it'll go ahead
 
