@@ -1,5 +1,5 @@
 ## Terraform Providers 
-Terraform admin.
+Terraform admin
 
 So in my local desktop I first install the Terraform CLI.
 
