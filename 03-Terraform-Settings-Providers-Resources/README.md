@@ -1,5 +1,5 @@
 ## Terraform Providers 
-as a Terraform admin So in my local desktop I first install the Terraform CLI.
+as a Terraform admin in my local desktop  first install the Terraform CLI.
 
 And so whenever what happens means
 
