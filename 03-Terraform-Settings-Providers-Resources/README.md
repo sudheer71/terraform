@@ -1,3 +1,20 @@
 ## Terraform Providers 
+Terraform admin.
 
-![alt text](<Screenshot 2024-07-31 at 9.25.18 AM.png>)
+So in my local desktop I first install the Terraform CLI.
+
+And so whenever what happens means
+
+like whenever you run that Terraform init command
+
+what happens is like, so it'll go ahead
+
+and then download the terraform that respect
+
+to your provider whatever you have defined here, okay?
+
+So whatever the provider you define here
+
+here with source and then version.
+
+So that respect to provider is going to get downloaded
