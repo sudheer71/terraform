@@ -1,18 +1,18 @@
 ## Terraform block 
 
-terraform {
-  required_version = "~> 1.9.3"
-  required_providers {
-    aws = {
-      source = "hashicorp/aws"
-      version = "5.64.0"
-    }
-  }
-}
+# terraform {
+#   required_version = "~> 1.9.3"
+#   required_providers {
+#     aws = {
+#       source = "hashicorp/aws"
+#       version = "5.64.0"
+#     }
+#   }
+# }
 
-provider "aws" {
+# provider "aws" {
   
-}
+# }
 
 #
 ## testing
@@ -22,7 +22,7 @@ provider "aws" {
 terraform {
   required_version = "~> 1.9.3"
   required_providers {
-    aws = {
+    myaws = {
       source = "hashicorp/aws"
       version = "5.64.0"
     }
