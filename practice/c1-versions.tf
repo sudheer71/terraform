@@ -29,6 +29,6 @@ terraform {
   }
 }
 
-provider "aws" {
+provider "myaws" {
   
 }
