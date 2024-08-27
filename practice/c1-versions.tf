@@ -11,6 +11,6 @@ terraform {
 }
 
 provider "aws" {
-  r
+  region = "us-east-1"
   
 }
