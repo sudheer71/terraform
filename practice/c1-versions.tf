@@ -3,6 +3,7 @@ terraform {
   required_providers {
     aws = {
       source = "value"
+      version = "value"
     }
   }
 }
