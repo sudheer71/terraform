@@ -3,4 +3,5 @@ resource "aws_instance" "my-demo" {
     availability_zone = "us-east-1"
     instance_type = "t3.micro"
     user_data = file("${path.module}/app1-install.sh")
+    tags = 
 }
