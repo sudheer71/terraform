@@ -6,7 +6,7 @@ resource "aws_instance" "mydemo1" {
 
     tags = {
       name = mydemo1
-      environment_namez
+      env  = 
     }
   
 }
