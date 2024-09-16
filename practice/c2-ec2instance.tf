@@ -5,8 +5,8 @@ resource "aws_instance" "mydemo1" {
     user_data = file("${path.module}/app1-install.sh")
 
     tags = {
-      name = mydemo1
-      env  = 
+      name = "mydemo1"
+      env  = "practice"
     }
   
 }
