@@ -16,4 +16,4 @@ provider "aws" {
    region = "us-east-1"
   
 }
-/app1-install.sh
+
