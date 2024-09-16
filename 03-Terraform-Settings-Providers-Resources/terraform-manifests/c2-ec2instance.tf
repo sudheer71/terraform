@@ -1,3 +1,3 @@
-resource "aws_ec2" "name" {
+resource "aws_ec2i" "name" {
   
 }
