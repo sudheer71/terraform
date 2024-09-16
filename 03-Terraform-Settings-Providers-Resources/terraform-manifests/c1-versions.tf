@@ -7,9 +7,8 @@ terraform {
 
   required_providers {
     aws = { #   In side the This required_providers block aws is a argument block with map information in side that  
-      source  = "value"
-      version = "value"
-
+      source = "hashicorp/aws"
+      version = ">= 5.0"
     }
   }
 
