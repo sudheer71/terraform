@@ -1,1 +1,1 @@
-this is praci
+his is practice
