@@ -1,3 +1,3 @@
-resource "aws_accessanalyzer_analyzer" "name" {
+resource "aws" "name" {
   
 }
