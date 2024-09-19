@@ -16,4 +16,6 @@ data "aws_ami" "my-demo-amzlinux2" {
     name   = "virtualization-type"
     values = ["hvm"]
   }
+
+
 }
