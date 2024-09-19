@@ -1,3 +1,4 @@
-data "aws_ami" "my-ami-" {
+data "aws_ami" "my-ami-datasource" {
+    
   
 }
