@@ -17,5 +17,9 @@ data "aws_ami" "my-demo-amzlinux2" {
     values = ["hvm"]
   }
 
-
+  filter {
+    name   = "architecture"
+    values = ["x86_64"]
+  }
+  
 }
