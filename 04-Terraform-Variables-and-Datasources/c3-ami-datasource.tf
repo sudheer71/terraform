@@ -1,4 +1,4 @@
-data "aws_ami" "my-ami-datasource-amzlinux" {
+data "aws_ami" "my-ami-datasource-amzlinux2" {
 
   
 }
