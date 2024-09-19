@@ -5,9 +5,5 @@ resource "aws_instance" "mydemo_ec2" {
 
     tags = {
         name = "EC2-demo"
-    }
-
-
-
-  
+    }  
 }
