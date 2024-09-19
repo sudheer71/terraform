@@ -1,4 +1,4 @@
-data "aws_ami" "my-demo-" {
+data "aws_ami" "my-demo-amz" {
   executable_users = ["self"]
   most_recent      = true
   name_regex       = "^myami-[0-9]{3}"
