@@ -1,3 +1,3 @@
-resource "aws_instance" "" {
+resource "aws_instance" "mydemoec2" {
   
 }
