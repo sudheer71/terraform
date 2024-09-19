@@ -3,7 +3,7 @@ resource "aws_instance" "mydemo_ec2" {
     instance_type = "t2.micro"
     user_data = file("${path.module}/app1-install.sh")
 
-    
+    tags = 
 
 
 
