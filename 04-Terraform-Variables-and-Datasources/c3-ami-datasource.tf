@@ -4,7 +4,7 @@ data "aws_ami" "my-demo-amzlinux2" {
 
   filter {
     name   = "name"
-    values = ["myami-*"]
+    values = [""]
   }
 
   filter {
