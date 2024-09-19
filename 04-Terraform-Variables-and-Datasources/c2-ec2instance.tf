@@ -1,5 +1,5 @@
 resource "aws_instance" "mydemo_ec2" {
-    ami = da
+    ami = data.aws_ami.my-demo-amzlinux2
     instance_type = "t2.micro"
     user_data = file("${path.module}/app1-install.sh")
 
