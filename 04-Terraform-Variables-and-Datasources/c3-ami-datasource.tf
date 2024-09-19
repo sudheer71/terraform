@@ -1,6 +1,5 @@
 data "aws_ami" "my-demo-amzlinux2" {
   most_recent      = true
-  name_regex       = "^myami-[0-9]{3}"
   owners           = ["self"]
 
   filter {
