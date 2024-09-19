@@ -1,3 +1,4 @@
-resource "aws_instance" "mydemoec2" {
+resource "aws_instance" "mydemo_ec2" {
+    
   
 }
