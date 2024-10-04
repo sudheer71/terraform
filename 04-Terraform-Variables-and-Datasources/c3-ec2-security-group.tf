@@ -3,6 +3,6 @@ resource "aws_instance" "myec2demo" {
   key_name = ""
   user_data = ""
   instance_type = ""
-  v
+  vpc_security_group_ids = []
 
 }
