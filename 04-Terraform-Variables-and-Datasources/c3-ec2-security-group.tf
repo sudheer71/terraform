@@ -1,3 +1,3 @@
-resource "aws_instance" "myec2" {
-  
+resource "aws_instance" "myec2demo" {
+  ami = 
 }
