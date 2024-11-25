@@ -15,5 +15,4 @@ variable "key_name" {
     description  = "Key name to WS EC2 Key Pair that need to be associated with EC2 Instance"
     type = string
     default = "terraform"
-"
 }
