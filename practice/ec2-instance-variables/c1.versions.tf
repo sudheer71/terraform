@@ -1,5 +1,3 @@
 terraform {
-  backend "" {
-    
-  }
+  required_version = "value"
 }
