@@ -1,6 +1,7 @@
 resource "aws_instance" "practice02" {
     ami = ""
     instance_type = ""
-    key_name = 
+    key_name = ""
+    user_data = ""
   
 }
