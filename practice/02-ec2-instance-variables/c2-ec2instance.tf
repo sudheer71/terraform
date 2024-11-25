@@ -5,7 +5,7 @@ resource "aws_instance" "practice02" {
     user_data = ""
 
     tags = {
-        name = "prac"
+        name = "practic"
     }
 
   
