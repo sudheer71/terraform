@@ -5,6 +5,7 @@ variable "aws_region" {
 }
 
 variable "instance_type" {
-    description = "instance type "
+    description = "instance type"
+    
   
 }
