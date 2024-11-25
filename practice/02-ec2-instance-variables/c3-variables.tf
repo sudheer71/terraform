@@ -1,3 +1,4 @@
 variable "aws_region" {
-  description = "In which region we "
+  description = "In which region we need to launch the instance"
+  
 }
