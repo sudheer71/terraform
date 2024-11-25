@@ -6,7 +6,7 @@ resource "aws_instance" "practice02" {
 
     tags = {
         name = "practic-demo"
-        env 
+        env = "demo"
     }
 
   
