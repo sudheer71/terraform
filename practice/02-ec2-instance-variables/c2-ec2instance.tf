@@ -1,7 +1,7 @@
 resource "aws_instance" "practice02" {
     ami = ""
-    instance_type = ""
-    key_name = ""
+    instance_type = var.instance_type
+    key_name = va
     user_data = ""
 
     tags = {
