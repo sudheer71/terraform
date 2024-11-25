@@ -4,7 +4,9 @@ resource "aws_instance" "practice02" {
     key_name = ""
     user_data = ""
 
-    tags = 
+    tags = {
+        
+    }
 
   
 }
