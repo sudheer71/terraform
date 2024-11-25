@@ -3,6 +3,8 @@ resource "aws_instance" "practice02" {
     instance_type = ""
     key_name = ""
     user_data = ""
-    
+
+    tags = 
+
   
 }
