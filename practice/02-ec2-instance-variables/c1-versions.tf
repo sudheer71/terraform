@@ -9,5 +9,5 @@ terraform {
 }
 provider "aws" {
   profile = "default"
-  region = va
+  region = var.aws_region
 }
