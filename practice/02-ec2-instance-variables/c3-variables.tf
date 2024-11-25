@@ -12,5 +12,5 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-  description = "Key name"
+  description = "Key name to "
 }
