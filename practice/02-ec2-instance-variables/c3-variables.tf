@@ -1,3 +1,3 @@
-variable "aws_" {
+variable "aws_region" {
   
 }
