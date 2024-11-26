@@ -1,4 +1,4 @@
 resource "aws_security_group" "practice02" {
-    name = ""
+    name = "my practice 01"
   
 }
