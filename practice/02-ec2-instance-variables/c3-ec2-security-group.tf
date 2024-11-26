@@ -1,3 +1,4 @@
-resource "aws_security_group" "practic02" {
+resource "aws_security_group" "practice02" {
+    
   
 }
