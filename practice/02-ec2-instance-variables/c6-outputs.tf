@@ -4,5 +4,5 @@
 
 output "instance_publicip" {
   description = "EC2 Instance Public IP"
-  value = 
+  value = aws_instance.practice02
 }
