@@ -4,5 +4,5 @@ output "instance_publicip" {
 }
 
 output "instance_publicdns" {
-  value = 
+  value = aws_instance.my-ec2-demo.public_dns
 }
