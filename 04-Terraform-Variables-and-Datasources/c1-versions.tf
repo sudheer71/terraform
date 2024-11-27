@@ -9,5 +9,5 @@ terraform {
   }
 }
 
-Provi
+Provider Block
 
