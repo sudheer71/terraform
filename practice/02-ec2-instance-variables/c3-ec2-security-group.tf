@@ -29,6 +29,8 @@ resource "aws_security_group" "practice02_vpc_ssh" {
 resource "aws_security_group" "practice02_vpc_web" {
   name        = "vpc_web"
   description = "Dev vpc web"
-  ingress = 
+  ingress = {
+    description
+  }
 
 }
