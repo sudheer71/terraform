@@ -16,6 +16,7 @@ data "aws_ami" "myami_data" {
     filter {
       name = "virtualization-type"
       values = [ "hvm" ]
+      
     }
 }
 
