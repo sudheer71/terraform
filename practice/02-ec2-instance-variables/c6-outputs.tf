@@ -9,6 +9,6 @@ output "instance_publicip" {
 
 output "instance_publicdns" {
     description = "EC2 Instance Public DNS"
-    value = aws_instance.practice02
+    value = aws_instance.practice02.public_dns
   
 }
