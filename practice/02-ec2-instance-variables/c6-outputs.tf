@@ -2,6 +2,6 @@
 
 # EC2 Instance Public IP
 
-output "instance_" {
+output "instance_publicip" {
   
 }
