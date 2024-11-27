@@ -8,6 +8,6 @@ output "instance_publicip" {
 }
 
 output "instance_publicdns" {
-    description = "value"
+    description = "EC2 Instance Public "
   
 }
