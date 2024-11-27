@@ -3,5 +3,5 @@
 # EC2 Instance Public IP
 
 output "instance_publicip" {
-  description = "value"
+  description = "EC2"
 }
