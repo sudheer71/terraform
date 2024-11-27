@@ -3,7 +3,7 @@ resource "aws_security_group" "practice02_vpc_ssh" {
   name        = "my_practice_02_ssh"
   description = "Dev_vpc_ssh"
 
-  ingress = {
+  ingress  {
     description = "Allow Port SSH inbound rules"
     from_port   = 22
     to_port     = 22
@@ -11,7 +11,7 @@ resource "aws_security_group" "practice02_vpc_ssh" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-  egress = {
+  egress  {
     description = "Allow all ip and ports outbound"
     from_port   = 0
     to_port     = 0
