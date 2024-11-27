@@ -7,6 +7,17 @@ data "aws_ami" "amazonlinux" {
   }
   
   filter {
-    name = ""
+    name   = "root-device-type"
+    values = ["ebs"]
+  }
+
+  filter {
+    name   = "virtualization-type"
+    values = ["hvm"]
+  }
+
+  filter {
+    name   = "architecture"
+    values = ["x86_64"]
   }
 }
