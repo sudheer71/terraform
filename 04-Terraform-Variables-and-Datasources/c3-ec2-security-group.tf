@@ -3,6 +3,6 @@ resource "aws_security_group" "vpc_ssh" {
   description = "Dev_vpc_ssh"
   ingress {
     description = "allow port ssh inbond rules"
-    po
+    from_port = 
   }
 }
