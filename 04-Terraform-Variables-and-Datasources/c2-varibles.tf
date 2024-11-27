@@ -1,6 +1,7 @@
 variable "instance_keyname" {
     description = "instance key_name"
-    type = 
+    type = string
+    default = "value"
   
 }
 
