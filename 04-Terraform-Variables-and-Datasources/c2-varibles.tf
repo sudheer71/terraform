@@ -13,4 +13,3 @@ variable "" {
 
 
 
-    instance_type = ""
