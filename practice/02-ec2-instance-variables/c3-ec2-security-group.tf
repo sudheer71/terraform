@@ -28,6 +28,6 @@ resource "aws_security_group" "practice02_vpc_ssh" {
 
 resource "aws_security_group" "practice02_vpc_web" {
   name        = "vpc_web"
-  description = "Allow all traffice"
+  description = "Allow all traffice to web"
 
 }
