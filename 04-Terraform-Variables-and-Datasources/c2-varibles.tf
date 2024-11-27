@@ -1,5 +1,6 @@
 variable "instance_keyname" {
-    description = "instance key"
+    description = "instance key_name"
+    type = 
   
 }
 
