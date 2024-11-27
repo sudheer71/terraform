@@ -1,4 +1,4 @@
 data "aws_ami" "amazonlinux" {
-  most_recent = 
+  most_recent = tr
   
 }
