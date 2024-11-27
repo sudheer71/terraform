@@ -4,7 +4,8 @@ variable "instance_keyname" {
     default = "terraform"
 }
 
-variable "" {
+variable "instance_type" {
+    
   
 }
 
