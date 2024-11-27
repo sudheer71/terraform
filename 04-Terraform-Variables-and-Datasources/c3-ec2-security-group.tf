@@ -35,7 +35,8 @@ resource "aws_security_group" "vpc_web" {
     description = "Allow web port 443"
     from_port = 443
     to_port = 443
-    protocol = 
+    protocol = "tcp"
+    cidr_blocks = 
   }
   
 }
