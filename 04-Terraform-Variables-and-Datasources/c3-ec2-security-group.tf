@@ -20,3 +20,4 @@ resource "aws_security_group" "vpc_ssh" {
     Name = "Allow-ssh"
   }
 }
+## Security group to allow web Traffice
