@@ -5,6 +5,6 @@ resource "aws_instance" "my-ec2-demo" {
     instance_type = ""
     vpc_security_group_ids = ""
 
-
+    tags = {}
   
 }
