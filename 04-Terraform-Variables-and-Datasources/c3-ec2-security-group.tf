@@ -39,7 +39,7 @@ resource "aws_security_group" "vpc_web" {
     cidr_blocks = [ "0.0.0.0/0" ]
   }
   egress {
-    description = ""
+    description = "Allow all ports and "
   }
   
 }
