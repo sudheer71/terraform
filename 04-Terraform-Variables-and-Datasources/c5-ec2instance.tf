@@ -1,5 +1,5 @@
 resource "aws_instance" "my-ec2-demo" {
-    ami = ""
+    ami = d
     key_name = ""
     user_data = ""
     instance_type = ""
