@@ -1,8 +1,10 @@
-data "aws_ami" "my_demo_amazon_ami" {
-  most_recent = true
-  owners = [ "amazon" ]
+data "aws_ami" "example" {
+  executable_users = ["self"]
+  most_recent      = true
+  name_regex       = "^myami-[0-9]{3}"
+  owners           = ["self"]
 
   filter {
-    
+    name   = "name"
+    values = ["myami-*"]
   }
-}
