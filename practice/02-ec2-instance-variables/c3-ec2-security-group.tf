@@ -41,7 +41,7 @@ resource "aws_security_group" "practice02_vpc_web" {
     description = "Allow port 443"
     from_port = 443
     to_port = 443
-    
+    protocol = "tcp"
   }
 
 }
