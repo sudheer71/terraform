@@ -3,6 +3,6 @@ output "instance_publicip" {
   description = "public_ip"
 }
 
-output "name" {
-  
+output "instance_publicdns" {
+  value = 
 }
