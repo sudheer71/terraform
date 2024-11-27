@@ -5,7 +5,8 @@ resource "aws_security_group" "practice02_vpc_ssh" {
         description = "Allow Port SSH"
         from_port   = 22
         to_port     = 22
-        protocol    = tcp
+        protocol    = "tcp"
+        
     }
   
 }
