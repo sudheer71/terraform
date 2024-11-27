@@ -9,5 +9,9 @@ terraform {
   }
 }
 
-Provider Block
+## Provider Block
+
+provider "aws" {
+  
+}
 
