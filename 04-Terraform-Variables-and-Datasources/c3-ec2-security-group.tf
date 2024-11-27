@@ -1,3 +1,3 @@
-resource "aws_security_group" "vpc" {
+resource "aws_security_group" "vpc_ssh" {
   
 }
