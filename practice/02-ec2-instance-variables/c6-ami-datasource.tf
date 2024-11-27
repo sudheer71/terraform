@@ -18,7 +18,9 @@ data "aws_ami" "myami_data" {
       values = [ "hvm" ]
     }
 
-    
+    filter {
+      name = 
+    }
 }
 
 
