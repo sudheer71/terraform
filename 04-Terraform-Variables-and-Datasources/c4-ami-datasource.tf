@@ -6,4 +6,7 @@ data "aws_ami" "amazonlinux" {
     values = [ "al2023-ami-*-x86_64" ]
   }
   
+  filter {
+    
+  }
 }
