@@ -6,7 +6,7 @@ resource "aws_instance" "my-ec2-demo" {
     vpc_security_group_ids = ""
 
     tags = {
-      Name = ""
+      Name = "My-Demo-Instance"
     }
   
 }
