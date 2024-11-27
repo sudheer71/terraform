@@ -4,7 +4,7 @@ data "aws_ami" "amazonlinux" {
   filter {
     name   = "name"
     #values = ["al2023-ami-*-x86_64"]
-  values = [  ]
+    values = ["al2023-ami-*-x86_64"]
   }
 
   filter {
