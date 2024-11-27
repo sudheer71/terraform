@@ -1,4 +1,5 @@
-variable "instance_key" {
+variable "instance_keyname" {
+    
   
 }
 
