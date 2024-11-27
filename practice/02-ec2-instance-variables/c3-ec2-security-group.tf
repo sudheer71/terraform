@@ -24,4 +24,4 @@ resource "aws_security_group" "practice02_vpc_ssh" {
     }
   
 }
-## Security group to allow port 
+## Security group to allow Traffice
