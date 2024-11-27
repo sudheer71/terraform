@@ -1,4 +1,6 @@
-data
+data "aws_ami" "name" {
+  
+}
 
 
 
