@@ -1,3 +1,3 @@
-resource "aws_se" "name" {
+resource "aws_security_group" "vpc" {
   
 }
