@@ -54,6 +54,6 @@ resource "aws_security_group" "practice02_vpc_web" {
   }
 
   tags = {
-    name
+    name = ""
   }
 }
