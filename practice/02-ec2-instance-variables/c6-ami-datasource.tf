@@ -13,7 +13,7 @@ data "aws_ami" "myami_data" {
 
 
 
-# 
+# al2023-ami-2023.6.20241121.0-kernel-6.1-x86_64
 
 
 # data "aws_ami" "example" {
