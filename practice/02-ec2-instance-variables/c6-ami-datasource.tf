@@ -1,3 +1,4 @@
 data "aws_ami" "my_demo_amazon_ami" {
-  most_recent = t
+  most_recent = true
+  
 }
