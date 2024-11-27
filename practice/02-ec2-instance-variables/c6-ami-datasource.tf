@@ -6,6 +6,10 @@ data "aws_ami" "myami_data" {
       name = "name"
       values = [ "al2023-ami-*-x86_64" ]
     }
+
+    filter {
+      
+    }
 }
 
 
