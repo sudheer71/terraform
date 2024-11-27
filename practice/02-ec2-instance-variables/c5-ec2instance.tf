@@ -6,7 +6,7 @@ resource "aws_instance" "practice02" {
   vpc_security_group_ids = [ aws_security_group.practice02_vpc_ssh.id ,aws_security_group.practice02_vpc_web.id]
 
   tags = {
-    name = "practic-demo"
+    name = "EC2-practic-demo"
     env  = "demo02"
   }
 
