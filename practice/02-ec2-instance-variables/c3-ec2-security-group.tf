@@ -49,6 +49,7 @@ resource "aws_security_group" "practice02_vpc_web" {
     description = "Allow all port and ip outbound"
     from_port = 0
     to_port = 0
-    pro
+    protocol = "-1"
+    
   }
 }
