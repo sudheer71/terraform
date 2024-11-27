@@ -1,6 +1,7 @@
 data "aws_ami" "myami_data" {
     most_recent = true
     owners = [ "amazon" ]
+    pl
 
     filter {
       name = "name"
