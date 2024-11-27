@@ -39,7 +39,9 @@ resource "aws_security_group" "practice02_vpc_web" {
   }
   ingress{
     description = "Allow port 443"
-    from_port = 
+    from_port = 443
+    to_port = 443
+    
   }
 
 }
