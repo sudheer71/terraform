@@ -11,7 +11,7 @@ resource "aws_security_group" "practice02_vpc_ssh" {
     }
 
     egress = {
-        description = "Allow all ip and ports"
+        description = "Allow all ip and ports outbond"
     }
   
 }
