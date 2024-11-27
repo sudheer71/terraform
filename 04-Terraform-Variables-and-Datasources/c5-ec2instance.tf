@@ -1,1 +1,3 @@
-re
+resource "aws" "name" {
+  
+}
