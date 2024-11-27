@@ -26,7 +26,9 @@ resource "aws_security_group" "vpc_web" {
   description = "Dev-web-vpc"
   ingress {
     description = "allow web port 80 "
-    from_port = 
+    from_port = 80
+    to_port = 80
+    
   }
 
   
