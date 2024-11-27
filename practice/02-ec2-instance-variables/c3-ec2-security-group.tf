@@ -3,7 +3,7 @@ resource "aws_security_group" "practice02_vpc_ssh" {
     description = "Dev_vpc_ssh"
 
     ingress = {
-        description = "Allow Port SSH"
+        description = "Allow Port SSH inbound rules"
         from_port   = 22
         to_port     = 22
         protocol    = "tcp"
@@ -11,7 +11,7 @@ resource "aws_security_group" "practice02_vpc_ssh" {
     }
 
     egress = {
-        description = ""
+        description = "Allow"
     }
   
 }
