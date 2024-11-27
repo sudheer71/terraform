@@ -62,7 +62,7 @@
 
 
 # Create Security Group - SSH Traffic
-resource "aws_security_group" "vpc-ssh" {
+resource "aws_security_group" "vpractice02_vpc_ssh" {
   name        = "vpc-ssh"
   description = "Dev VPC SSH"
   ingress {
