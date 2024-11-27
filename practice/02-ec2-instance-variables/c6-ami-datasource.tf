@@ -1,3 +1,3 @@
-data "aws_ami" "amazon" {
+data "aws_ami" "amazon_" {
   
 }
