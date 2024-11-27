@@ -3,7 +3,8 @@ resource "aws_security_group" "practice02_vpc_ssh" {
     description = "Dev_vpc_ssh"
     ingress = {
         description = "Allow Port SSH"
-        from_port
+        from_port   = 22
+        to
     }
   
 }
