@@ -37,6 +37,7 @@ resource "aws_security_group" "vpc_web" {
     to_port = 443
     protocol = "tcp"
     cidr_blocks = [ "0.0.0.0/0" ]
+    
   }
   
 }
