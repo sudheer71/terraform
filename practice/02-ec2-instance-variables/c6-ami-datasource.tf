@@ -8,3 +8,5 @@ data "aws_ami" "example" {
     name   = "name"
     values = ["myami-*"]
   }
+
+}
