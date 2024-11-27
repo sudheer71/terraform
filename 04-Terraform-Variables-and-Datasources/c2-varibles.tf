@@ -12,6 +12,7 @@ variable "instance_type" {
 
 variable "region" {
     description = "In which region we need to launch the instance"
+    type = 
   
 }
 
