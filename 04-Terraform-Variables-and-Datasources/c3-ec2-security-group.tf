@@ -34,7 +34,8 @@ resource "aws_security_group" "vpc_web" {
   ingress {
     description = "Allow web port 443"
     from_port = 443
-    
+    to_port = 443
+    protocol = 
   }
   
 }
