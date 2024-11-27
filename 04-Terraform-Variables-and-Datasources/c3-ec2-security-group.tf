@@ -10,6 +10,8 @@ resource "aws_security_group" "vpc_ssh" {
   }
   egress {
     description = "Allow all ip and ports outbound"
-    from_port = 
+    from_port = 0
+    to_port = 0
+    
   }
 }
