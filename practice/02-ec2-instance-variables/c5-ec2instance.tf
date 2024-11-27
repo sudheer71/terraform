@@ -1,5 +1,5 @@
 resource "aws_instance" "practice02" {
-  ami           = ""
+  ami           = data.aws_ami.myami_data
   instance_type = var.instance_type
   key_name      = var.key_name
   user_data     = file("${path.module}/app1-install.sh")
