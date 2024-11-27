@@ -1,3 +1,3 @@
 # Terraform Output values 
 
-# EC2
+# EC2 Instance Public 
