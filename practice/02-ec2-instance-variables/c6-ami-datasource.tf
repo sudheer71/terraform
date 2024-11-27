@@ -3,7 +3,7 @@ data "aws_ami" "myami_data" {
     owners = [ "amazon" ]
 
     filter {
-      
+      name = "nam"
     }
 }
 
