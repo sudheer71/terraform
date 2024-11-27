@@ -10,7 +10,7 @@ data "aws_ami" "myami_data" {
 
     filter {
       name = "root-device-type"
-      values = [  ]
+      values = [ "ebs" ]
     }
 }
 
