@@ -7,6 +7,7 @@ output "instance_publicip" {
   value = aws_instance.practice02.public_ip
 }
 
-output "instance_publici" {
+output "instance_publicdns" {
+    description = "value"
   
 }
