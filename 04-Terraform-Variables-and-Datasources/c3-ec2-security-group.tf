@@ -24,7 +24,7 @@ resource "aws_security_group" "vpc_ssh" {
 resource "aws_security_group" "vpc_web" {
   name = "Allow web port"
   description = "Dev-web-vpc"
-  
+  ingress 
 
   
 }
