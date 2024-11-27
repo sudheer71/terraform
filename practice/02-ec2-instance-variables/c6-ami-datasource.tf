@@ -14,7 +14,8 @@ data "aws_ami" "myami_data" {
     }
 
     filter {
-      name = ""
+      name = "virtualization-type"
+      values = [  ]
     }
 }
 
