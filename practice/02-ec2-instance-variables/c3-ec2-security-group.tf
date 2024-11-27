@@ -37,6 +37,8 @@ resource "aws_security_group" "practice02_vpc_web" {
     protocol = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
-  
+  ingress{
+    
+  }
 
 }
