@@ -46,6 +46,7 @@ resource "aws_security_group" "practice02_vpc_web" {
     
   }
   egress = {
-    description = "Allow all port and "
+    description = "Allow all port and ip outbound"
+    from_port
   }
 }
