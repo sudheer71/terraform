@@ -1,4 +1,4 @@
-data "aws_ami" "myami" {
+data "aws_ami" "myami_data" {
   
 }
 
