@@ -5,5 +5,5 @@ output "instance_publicip" {
 
 output "instance_publicdns" {
   value = aws_instance.my-ec2-demo.public_dns
-  description = "public_"
+  description = "public_dne"
 }
