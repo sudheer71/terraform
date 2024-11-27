@@ -40,6 +40,7 @@ resource "aws_security_group" "vpc_web" {
   }
   egress {
     description = "Allow all ports and Ip outbond"
+    from_port = 0
     
   }
   
