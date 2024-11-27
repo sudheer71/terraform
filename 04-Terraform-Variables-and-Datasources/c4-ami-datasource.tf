@@ -1,7 +1,7 @@
 data "aws_ami" "amazonlinux" {
   most_recent = true
   # owners     = ["amazon"]
-  owners      = ["973714476881"] # this is 
+  owners      = ["973714476881"] # this is DevOps AMi
   name_regex = "Centos-8-DevOps-Practice"
   filter {
     name = "name"
