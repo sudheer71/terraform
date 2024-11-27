@@ -11,7 +11,7 @@ variable "instance_type" {
 }
 
 variable "region" {
-    description = "in "
+    description = "in which region"
   
 }
 
