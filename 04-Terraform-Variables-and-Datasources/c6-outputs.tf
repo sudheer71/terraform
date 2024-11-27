@@ -1,1 +1,3 @@
-
+output "name" {
+  
+}
