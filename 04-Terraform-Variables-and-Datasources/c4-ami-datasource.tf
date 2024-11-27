@@ -7,6 +7,6 @@ data "aws_ami" "amazonlinux" {
   }
   
   filter {
-    
+    name = ""
   }
 }
