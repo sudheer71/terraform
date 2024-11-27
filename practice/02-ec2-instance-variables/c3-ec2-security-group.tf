@@ -14,7 +14,8 @@ resource "aws_security_group" "practice02_vpc_ssh" {
         description = "Allow all ip and ports outbound"
         from_port   = 0
         to_port     = 0
-        pro
+        protocol    = "-1"
+        
     }
   
 }
