@@ -20,7 +20,7 @@ resource "aws_security_group" "practice02_vpc_ssh" {
 
   }
   tags = {
-    name = "vpc-ssh"
+    Name = "vpc-ssh"
   }
 
 }
