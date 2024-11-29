@@ -22,7 +22,7 @@ resource "aws_security_group" "vpc_ssh" {
 
 ## Security group to allow web Traffice
 resource "aws_security_group" "vpc_web" {
-  name        = "Allow http traffice"
+  name        = "Allow Web traffice"
   description = "Allow Inbound Web traffice"
   
   ingress {
