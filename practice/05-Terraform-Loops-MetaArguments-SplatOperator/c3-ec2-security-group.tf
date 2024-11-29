@@ -22,5 +22,5 @@ resource "aws_security_group" "vpc_ssh" {
 
 ## Security group to allow web Traffice
 resource "aws_security_group" "vpc_web" {
-name = "Allow Web traff"  
+name = "Allow Web traffice"  
 }
