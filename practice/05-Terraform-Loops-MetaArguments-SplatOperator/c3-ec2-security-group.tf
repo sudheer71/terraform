@@ -33,6 +33,6 @@ resource "aws_security_group" "vpc_web" {
     cidr_blocks = [ "0.0.0.0/0" ]
   }
   ingress {
-    description = "Allo"
+    description = "Allow "
   }
 }
