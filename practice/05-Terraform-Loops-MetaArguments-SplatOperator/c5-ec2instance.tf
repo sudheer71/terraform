@@ -1,5 +1,5 @@
 resource "aws_instance" "myP_05_l_M" {
-    ami = va
+    ami = var.aw
     key_name = ""
     user_data = ""
     instance_type = ""
