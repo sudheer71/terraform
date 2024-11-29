@@ -4,15 +4,11 @@ variable "key_name" {
     type = string
   }
 
-
-
-
 variable "instance_type" {
   description = "instance type"
   type = string
   default = "t2.micro"
 }
-
 
 variable "region" {
   description = "In which reasion to launch instance"
