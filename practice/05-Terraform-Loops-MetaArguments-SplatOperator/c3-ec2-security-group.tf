@@ -5,6 +5,7 @@ resource "aws_security_group" "vpc_ssh" {
   ingress {
     description = "Allow SSH port in inboud rules"
     from_port = 22
+    to_port = 22
     
   }
 }
