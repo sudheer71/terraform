@@ -1,4 +1,5 @@
 output "public_ip" {
-    description = "instance public"
+    description = "instance public ip"
+    value = 
   
 }
