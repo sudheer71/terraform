@@ -1,10 +1,10 @@
 data "aws_ami" "rkalluru" {
-    most_recent = true
-    name_regex = "Centos-8-DevOps-Practice"
-    owners = [ "973714476881" ] #DevOps AMi
-    #owners     = ["amazon"]
+  most_recent = true
+  name_regex  = "Centos-8-DevOps-Practice"
+  owners      = ["973714476881"] #DevOps AMi
+  #owners     = ["amazon"]
 
-    filter {
+  filter {
     name = "name"
     #values = ["al2023-ami-*-x86_64"]
     values = ["Centos-8-DevOps-Practice"]
@@ -25,5 +25,5 @@ data "aws_ami" "rkalluru" {
     values = ["x86_64"]
   }
 
-  
+
 }
