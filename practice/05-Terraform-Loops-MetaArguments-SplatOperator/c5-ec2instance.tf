@@ -3,7 +3,7 @@ resource "aws_instance" "myP_05_l_M" {
   key_name               = var.key_name
   user_data              = file("${path.module}/app1-install.sh")
   instance_type          = var.instance_type
-  vpc_security_group_ids = ""
+  vpc_security_group_ids = [  ]
 
   tags = {
     Name = "myP_05_l_M_Demo"
