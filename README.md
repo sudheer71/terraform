@@ -4,3 +4,5 @@
 - [install Terraform in mac](https://www.terraformpilot.com/articles/upgrading-terraform-to-a-specific-version/)
 - [Master Document](https://docs.google.com/document/d/1gxrXjFOEs04j6hU5kVAcqU4UTRpJhQIHoBRnalo5ptM/edit?pli=1&tab=t.0)
 
+05-Terraform-Loops-MetaArguments-SplatOperator
+
