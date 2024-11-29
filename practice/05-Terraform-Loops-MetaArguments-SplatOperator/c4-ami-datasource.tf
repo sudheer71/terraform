@@ -4,7 +4,7 @@ data "aws_ami" "rkalluru" {
     owners = [ "973714476881" ]
     #owners     = ["amazon"]
 
-    ilter {
+    filter {
     name = "name"
     #values = ["al2023-ami-*-x86_64"]
     values = ["Centos-8-DevOps-Practice"]
