@@ -5,5 +5,6 @@ output "public_ip" {
 }
 output "public_dns" {
     description = "instance public dns"
+    value = 
   
 }
