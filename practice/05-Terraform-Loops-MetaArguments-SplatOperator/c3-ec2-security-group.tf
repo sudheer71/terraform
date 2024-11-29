@@ -10,6 +10,6 @@ resource "aws_security_group" "vpc_ssh" {
     cidr_blocks = [ "0.0.0.0/0" ]
   }
   egress {
-    
+    description = ""
   }
 }
