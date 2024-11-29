@@ -1,4 +1,4 @@
-resource "aws_instance" "myP-05_l_M" {
+resource "aws_instance" "myP_05_l_M" {
     ami = ""
     key_name = ""
     user_data = ""
