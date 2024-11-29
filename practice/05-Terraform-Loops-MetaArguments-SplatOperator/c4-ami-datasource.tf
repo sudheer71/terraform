@@ -1,3 +1,3 @@
-data "aws_ami" "" {
+data "aws_ami" "rkalluru" {
   
 }
