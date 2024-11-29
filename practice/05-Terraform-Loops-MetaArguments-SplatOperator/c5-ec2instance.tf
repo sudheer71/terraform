@@ -5,7 +5,7 @@ resource "aws_instance" "myP_05_l_M" {
     instance_type = ""
     vpc_security_group_ids = ""
     tags = {
-      Name = ""
+      Name = "myP_05_l_M"
     }
 
     
