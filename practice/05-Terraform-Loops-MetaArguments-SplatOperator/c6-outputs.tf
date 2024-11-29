@@ -5,6 +5,6 @@ output "public_ip" {
 }
 output "public_dns" {
     description = "instance public dns"
-    value = aws_instance.myP_05_l_M.
+    value = aws_instance.myP_05_l_M.public_dns
   
 }
