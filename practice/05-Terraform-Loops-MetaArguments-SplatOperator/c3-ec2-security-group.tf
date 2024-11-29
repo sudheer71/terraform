@@ -41,5 +41,6 @@ resource "aws_security_group" "vpc_web" {
   }
   egress {
     description = "Allow all to ports outbound"
+    
   }
 }
