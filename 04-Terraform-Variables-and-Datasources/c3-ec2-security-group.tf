@@ -20,7 +20,7 @@ resource "aws_security_group" "vpc_ssh" {
     Name = "Allow-ssh"
   }
 }
-## Security group to allow SSH Traffice
+## Security group to allow web Traffice
 resource "aws_security_group" "vpc_web" {
   name        = "Allow web port"
   description = "Dev-web-vpc"
