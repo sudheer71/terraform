@@ -40,6 +40,6 @@ resource "aws_security_group" "vpc_web" {
     cidr_blocks = [ 0.0.0.0/0 ]
   }
   egress {
-    description = "Allow all to ports outboun "
+    description = "Allow all to ports outbound"
   }
 }
