@@ -4,6 +4,6 @@ output "public_ip" {
   
 }
 output "public_dns" {
-    
+    description = "value"
   
 }
