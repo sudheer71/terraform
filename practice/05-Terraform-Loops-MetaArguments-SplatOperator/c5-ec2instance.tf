@@ -1,3 +1,3 @@
-resource "aws_instance" "myP-05" {
+resource "aws_instance" "myP-05_l_M" {
   
 }
