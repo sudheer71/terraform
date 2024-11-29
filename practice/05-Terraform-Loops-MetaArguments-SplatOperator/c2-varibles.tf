@@ -1,4 +1,5 @@
 variable "key_name" {
-    description = "value"
+    description = "AWS instance Key Name"
+    
   
 }
