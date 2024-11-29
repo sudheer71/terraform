@@ -43,6 +43,7 @@ resource "aws_security_group" "vpc_web" {
     description = "Allow all to ports outbound"
     from_port = 0
     to_port = 0
-    protocol = 
+    protocol = "-1"
+    
   }
 }
