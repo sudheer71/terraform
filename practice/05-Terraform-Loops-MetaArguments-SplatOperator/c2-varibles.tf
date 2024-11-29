@@ -3,7 +3,6 @@ variable "key_name" {
     default = "terraform"
     type = string
   }
-
-  variable "" {
+variable "" {
     
   }
