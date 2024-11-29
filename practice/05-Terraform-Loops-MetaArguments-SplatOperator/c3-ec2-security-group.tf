@@ -11,6 +11,7 @@ resource "aws_security_group" "vpc_ssh" {
   }
   egress {
     description = "Allow all ip and ports outbond"
-    from_port = aws_instance.myP_05_l_M
+    from_port = 0
+    to_port = 
   }
 }
