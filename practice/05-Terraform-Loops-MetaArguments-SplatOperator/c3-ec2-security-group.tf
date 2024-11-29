@@ -3,6 +3,6 @@ resource "aws_security_group" "vpc_ssh" {
   description = "Allow port 22 in login to instance"
 
   ingress {
-    description = "Allow "
+    description = "Allow SSH port"
   }
 }
