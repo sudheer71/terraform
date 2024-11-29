@@ -16,5 +16,5 @@ variable "instance_type" {
 
 variable "region" {
   description = "In which reasion to launch instance"
-  default = us
+  default = us-east-1
 }
