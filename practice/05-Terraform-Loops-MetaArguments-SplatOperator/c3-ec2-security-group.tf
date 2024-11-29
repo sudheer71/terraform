@@ -26,6 +26,6 @@ resource "aws_security_group" "vpc_web" {
   description = "Allow Inbound Web traffice"
   
   ingress {
-    description = 
+    description = "Allow web traffice "
   }
 }
