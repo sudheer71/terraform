@@ -14,6 +14,6 @@ variable "instance_type" {
 }
 
 
-variable "" {
+variable "region" {
   
 }
