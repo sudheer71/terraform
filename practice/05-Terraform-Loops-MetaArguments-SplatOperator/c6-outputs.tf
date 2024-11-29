@@ -3,6 +3,6 @@ output "public_ip" {
     value = aws_instance.myP_05_l_M.public_ip
   
 }
-output "public" {
+output "public_dns" {
   
 }
