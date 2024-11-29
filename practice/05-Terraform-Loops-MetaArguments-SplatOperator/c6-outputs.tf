@@ -1,3 +1,3 @@
-output "insta" {
+output "public_ip" {
   
 }
