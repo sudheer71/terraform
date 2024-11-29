@@ -1,4 +1,5 @@
 data "aws_ami" "rkalluru" {
-    mo
+    most_recent = true
+    
   
 }
