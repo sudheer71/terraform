@@ -18,6 +18,6 @@ resource "aws_security_group" "vpc_ssh" {
 }
 
 
-resource "aws" "name" {
+resource "aws_security_group" "" {
   
 }
