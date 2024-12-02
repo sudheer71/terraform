@@ -9,5 +9,6 @@
 
 # 1. For Loop with List
 output "public_ip_list" {
+    
   
 }
