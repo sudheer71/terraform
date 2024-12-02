@@ -30,6 +30,6 @@ resource "aws_security_group" "vps_web" {
         cidr_blocks = ["0.0.0.0/0"]
     }
     ingress {
-        description = "Allow port "
+        description = "Allow port Https "
     }
 }
