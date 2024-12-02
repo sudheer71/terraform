@@ -22,3 +22,7 @@ variable "instance_type" {
   type = list(string)
   default = [ "t3.micro", "t3.small", "t3.large" ]
 }
+
+variable "" {
+  
+}
