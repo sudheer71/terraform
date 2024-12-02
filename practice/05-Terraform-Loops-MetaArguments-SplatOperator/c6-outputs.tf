@@ -7,7 +7,7 @@
 5. Latest Generalized Splat Operator - Returns the List
 */
 
-
+/*
 output "public_ip" {
   description = "instance public ip"
   value       = aws_instance.myP_05_l_M.public_ip
@@ -18,6 +18,7 @@ output "public_dns" {
   value       = aws_instance.myP_05_l_M.public_dns
 
 }
+/
 
 # 1. For Loop with List
 
