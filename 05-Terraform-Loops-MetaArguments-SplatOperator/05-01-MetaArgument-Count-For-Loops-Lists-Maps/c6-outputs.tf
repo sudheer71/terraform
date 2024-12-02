@@ -28,6 +28,6 @@ description = "For loop with list"
 }
 
 output "public_ip_map" {
-value = 
+value = {for instance in aws}
   
 }
