@@ -27,5 +27,6 @@ output "public_ip" {
 }
 
 output "public" {
-  description = "for loop with "
+  description = "for loop with map"
+  value = 
 }
