@@ -46,5 +46,5 @@ output "public_dns" {
 }
 
 output "name" {
-  
+  description = "value"
 }
