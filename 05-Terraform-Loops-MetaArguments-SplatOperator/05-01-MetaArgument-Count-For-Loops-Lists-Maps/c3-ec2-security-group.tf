@@ -37,6 +37,7 @@ resource "aws_security_group" "vps_web" {
         cidr_blocks = ["0.0.0.0/0"]
     }
     egress {
-        description = "Allow All ports "
+        description = "Allow All ports outbound"
+        from_port = 0
     }
 }
