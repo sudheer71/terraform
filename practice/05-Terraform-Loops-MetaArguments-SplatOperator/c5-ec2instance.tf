@@ -7,7 +7,7 @@ resource "aws_instance" "myP_05_l_M" {
   instance_type = var.instance_type_map["dev"] # For Map
   vpc_security_group_ids = [aws_security_group.vpc_ssh.id, aws_security_group.vpc_web.id]
   count = 2
-    tags = {
+  tags = {
     Name = "myP_05_l_M_Demo"
   }
 
