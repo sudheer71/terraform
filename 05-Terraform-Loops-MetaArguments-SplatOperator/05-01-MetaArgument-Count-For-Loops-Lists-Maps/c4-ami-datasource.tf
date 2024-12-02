@@ -5,6 +5,6 @@ data "aws_ami" "myamazon_ami" {
   
   filter {
     name = "name"
-    values = [  ]
+    values = [ "Centos-8-DevOps-Practice" ]
   }
 }
