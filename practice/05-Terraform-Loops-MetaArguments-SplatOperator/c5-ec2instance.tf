@@ -8,7 +8,7 @@ resource "aws_instance" "myP_05_l_M" {
   vpc_security_group_ids = [aws_security_group.vpc_ssh.id, aws_security_group.vpc_web.id]
   count = 2
   tags = {
-    Name = "Count-demo-${copunt.inde}"
+    Name = "Count-demo-${copunt.index}"
   }
 
 
