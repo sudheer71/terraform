@@ -26,6 +26,4 @@ variable "instance_type" {
       "qa" = "t3small"
       "prod" = "t3.large"
     }
-
-  
 }
