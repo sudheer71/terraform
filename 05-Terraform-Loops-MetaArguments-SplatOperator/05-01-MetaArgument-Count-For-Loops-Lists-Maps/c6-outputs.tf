@@ -26,12 +26,12 @@ value = [for instance in aws_instance.my_05_l_m: instance.public_ip]
 description = "For loop with list"
   
 }
-# 2.Output - For Loop with Map
+# 2. Output - For Loop with Map
 output "public_ip_map" {
 value = {for instance in aws_aws_instance.my_05_l_m: instance.id => instance.public_ip}
   
 }
-# Output - For Loop with Map Advanced
+# 3. Output - For Loop with Map Advanced
 output "public_ip_map_advanced" {
 value = {for c, instance in aws_aws_instance.my_05_l_m: c => instance.public_ip}
   
