@@ -12,7 +12,9 @@ output "public_ip" {
   value = aws_instance.my_05_l_m.public_ip
 }
 
-
+output "public_dns" {
+  
+}
 
 # 1. For Loop with List
 output "public_ip_list" {
