@@ -26,3 +26,7 @@ value = [for instance in aws_instance.my_05_l_m: instance.public_ip]
 description = "For loop with list"
   
 }
+
+output "public" {
+  
+}
