@@ -1,3 +1,3 @@
 variable "instance_type" {
-  description = "instance "
+  description = "instance type"
 }
