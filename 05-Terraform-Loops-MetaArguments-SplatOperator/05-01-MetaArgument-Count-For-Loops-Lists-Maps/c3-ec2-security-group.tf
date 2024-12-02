@@ -19,6 +19,7 @@ resource "aws_security_group" "vpc_ssh" {
 
 
 resource "aws_security_group" "vps_web" {
-    name = "Allow port for web "
+    name = "Allow port for web traffice"
+    depends_on = [  ]
   
 }
