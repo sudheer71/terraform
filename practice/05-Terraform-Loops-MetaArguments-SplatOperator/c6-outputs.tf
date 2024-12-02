@@ -23,6 +23,6 @@ output "public_dns" {
 
 output "public_ip" {
   description = "For Loop with List"
-  value = [for instance in aws_instance.myP_05_l_M:]
+  value = [for instance in aws_instance.myP_05_l_M: instance.]
 }
 
