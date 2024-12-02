@@ -41,6 +41,7 @@ value = {for c, instance in aws_aws_instance.my_05_l_m: c => instance.public_ip}
 
 output "legacy_splat_instance_publicdns" {
     value = aws_instance.my_05_l_m.*.public_dns
+    description = "public DNS using the legacy splat opperators"
   
 }
 
