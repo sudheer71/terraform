@@ -21,7 +21,7 @@ output "public_dns" {
 
 # 1. For Loop with List
 
-output "public_ip" {
+output "public_ip_list" {
   description = "For Loop with List"
   value       = [for instance in aws_instance.myP_05_l_M : instance.public_ip]
 }
