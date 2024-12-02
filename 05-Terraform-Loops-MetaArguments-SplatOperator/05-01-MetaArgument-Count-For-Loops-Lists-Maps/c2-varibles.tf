@@ -20,7 +20,10 @@ variable "reasion" {
 
 variable "instance_type" {
     description = "instance type"
-    type = map()
+    type = map(string)
+    default = {
+      "name" = "value"
+    }
 
   
 }
