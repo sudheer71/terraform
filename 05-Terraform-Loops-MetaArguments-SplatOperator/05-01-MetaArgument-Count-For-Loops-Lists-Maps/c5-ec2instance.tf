@@ -3,6 +3,6 @@ ami = ""
 key_name = var.key_name
 user_data = file("${path.module}/app1.install.sh")
 instance_type = var.instance_type[0]
-vpc_security_group_ids = ""
+vpc_security_group_id
   
 }
