@@ -8,6 +8,6 @@
 */
 
 # 1. For Loop with List
-output "name" {
+output "public" {
   
 }
