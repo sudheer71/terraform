@@ -49,5 +49,5 @@ output "legacy_splat_instance_publicdns" {
 
 output "latest_splat_instance_publicdns" {
   description = "Public DNS using the latest Splate Opperators"
-  value = aws_instance.myP_05_l_M[*].pu
+  value = aws_instance.myP_05_l_M[*].public_dns
 }
