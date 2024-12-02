@@ -20,6 +20,6 @@ resource "aws_security_group" "vpc_ssh" {
 
 resource "aws_security_group" "vps_web" {
     name = "Allow port for web traffice"
-    description = 
+    description = "allow port "
   
 }
