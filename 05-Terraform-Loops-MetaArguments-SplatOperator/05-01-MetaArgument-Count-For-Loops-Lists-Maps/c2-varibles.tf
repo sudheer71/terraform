@@ -16,10 +16,10 @@ variable "reasion" {
 
 }
 
-# AWS EC2 Instance Type - List
+# AWS EC2 Instance Type - map
 
 variable "instance_type" {
     description = "instance type"
-    
+
   
 }
