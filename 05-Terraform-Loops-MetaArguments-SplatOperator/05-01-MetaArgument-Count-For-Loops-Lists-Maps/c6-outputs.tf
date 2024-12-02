@@ -13,7 +13,7 @@ output "public_ip" {
 }
 
 output "public_dns" {
-  
+  description = "public d"
 }
 
 # 1. For Loop with List
