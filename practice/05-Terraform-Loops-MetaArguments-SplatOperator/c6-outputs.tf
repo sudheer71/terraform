@@ -41,5 +41,6 @@ output "name" {
 # Output Legacy Splat Operator (Legacy) - Returns the List
 
 output "public_dns" {
-  description = "public d"
+  description = "public DNS using the splat opperators"
+  value = 
 }
