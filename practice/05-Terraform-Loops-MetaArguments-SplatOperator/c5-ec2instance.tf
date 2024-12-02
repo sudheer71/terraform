@@ -3,8 +3,8 @@ resource "aws_instance" "myP_05_l_M" {
   key_name               = var.key_name
   user_data              = file("${path.module}/app1-install.sh")
   #instance_type          = var.instance_type
-  instance_type = var.instance_type_list[1] # For List
-  
+  #instance_type = var.instance_type_list[1] # For List
+  i
 
   vpc_security_group_ids = [aws_security_group.vpc_ssh.id, aws_security_group.vpc_web.id]
 
