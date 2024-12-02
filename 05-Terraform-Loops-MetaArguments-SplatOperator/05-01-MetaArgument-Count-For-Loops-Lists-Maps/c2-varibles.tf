@@ -19,7 +19,7 @@ variable "reasion" {
 variable "instance_type_list" {
   description = "instance type map"
   type = list(string)
-  default = [ "t2.micro","t3.sma" ]
+  default = [ "t2.micro","t3.small",t3 ]
 }
 
 # AWS EC2 Instance Type - map
