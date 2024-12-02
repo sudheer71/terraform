@@ -33,7 +33,7 @@ output "public_ip_map" {
 }
 
 # Output - For Loop with Map Advanced
-output "public_ip_map"_advanced" {
+output "public_ip_map_advanced" {
   description = "for loop with map advanced"
   value       = { for c, instance in aws_instance.myP_05_l_M : c => instance.public_ip }
 }
