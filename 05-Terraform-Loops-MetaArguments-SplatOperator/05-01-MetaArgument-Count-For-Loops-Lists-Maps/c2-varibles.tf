@@ -16,13 +16,13 @@ variable "reasion" {
 
 }
 # AWS EC2 Instance Type - List
-variable "instance_type" {
+variable "instance_type_list" {
   
 }
 
 # AWS EC2 Instance Type - map
 
-variable "instance_type" {
+variable "instance_type_" {
     description = "instance type"
     type = map(string)
     default = {
