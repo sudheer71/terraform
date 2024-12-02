@@ -1,3 +1,3 @@
 terraform {
-  req
+  required_version = "~> "
 }
