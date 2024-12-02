@@ -33,6 +33,7 @@ resource "aws_security_group" "vps_web" {
         description = "Allow port Https Inbound"
         from_port = 443
         to_port = 443
+        protocol = "-1"
         
     }
 }
