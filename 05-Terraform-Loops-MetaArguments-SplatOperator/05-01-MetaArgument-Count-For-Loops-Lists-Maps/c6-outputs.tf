@@ -32,4 +32,7 @@ output "public_ip_map" {
 value = {for instance in aws_aws_instance.my_05_l_m: instance.id => instance.public_ip}
   
 }
-# Output - For Loop with Map
+# Output - For Loop with Map Advanced
+output "name" {
+  
+}
