@@ -4,6 +4,6 @@ data "aws_ami" "myamazon_ami" {
     owners = [ "973714476881" ]
   
   filter {
-    
+    name = "name"
   }
 }
