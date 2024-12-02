@@ -28,6 +28,6 @@ variable "instance_type" {
   description = "EC2 instance Type"
   type = map(string)
   default = {
-    "dev" = ""
+    "dev" = "t3.micro"
   }
 }
