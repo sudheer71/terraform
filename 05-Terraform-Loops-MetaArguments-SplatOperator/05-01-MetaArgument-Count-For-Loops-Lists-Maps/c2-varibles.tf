@@ -18,6 +18,7 @@ variable "reasion" {
 # AWS EC2 Instance Type - List
 variable "instance_type_list" {
   description = "instance type map"
+  type = list(string)
   
 }
 
