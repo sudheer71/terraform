@@ -16,6 +16,6 @@ variable "region" {
   type        = string
 }
 
-variable "" {
+variable "instance_type" {
   
 }
