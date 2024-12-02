@@ -1,0 +1,1 @@
+05-Terraform-Loops-MetaArguments-SplatOperator
