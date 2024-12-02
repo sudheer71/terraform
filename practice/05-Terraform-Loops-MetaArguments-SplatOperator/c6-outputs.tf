@@ -22,6 +22,7 @@ output "public_dns" {
 # 1. For Loop with List
 
 output "public_ip" {
-  description = "1. For Loop with List"
+  description = "For Loop with List"
+  
 }
 
