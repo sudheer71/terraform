@@ -42,5 +42,5 @@ output "name" {
 
 output "public_dns" {
   description = "public DNS using the splat opperators"
-  value = 
+  value = a
 }
