@@ -34,6 +34,6 @@ value = {for instance in aws_aws_instance.my_05_l_m: instance.id => instance.pub
 }
 # Output - For Loop with Map Advanced
 output "public_ip_map_advanced" {
-value = {for c, instance in aws_aws_instance.my_05_l_m}
+value = {for c, instance in aws_aws_instance.my_05_l_m: c }
   
 }
