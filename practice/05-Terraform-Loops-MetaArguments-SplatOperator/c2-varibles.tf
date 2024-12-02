@@ -20,7 +20,7 @@ variable "region" {
 variable "instance_type_list" {
   description = "EC2 instance"
   type        = list(string)
-  default     = ["t3.micro", "t3.small", "t3.large"]
+  default     = ["t2.micro", "t3.small", "t3.large"]
 }
 
 # AWS EC2 Instance Type - Map
@@ -28,7 +28,7 @@ variable "instance_type_map" {
   description = "EC2 instance Type"
   type        = map(string)
   default = {
-    "dev"  = "t3.micro"
+    "dev"  = "t2.micro"
     "qa"   = "t3.small"
     "prod" = "t3.large"
   }
