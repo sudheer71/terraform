@@ -1,3 +1,4 @@
-data "aws_ami" "myamazonami" {
+data "aws_ami" "myamazon_ami" {
+    na
   
 }
