@@ -10,5 +10,5 @@ variable "key_name" {
 }
 
 variable "reasion" {
-  description = "value"
+  description = "in whcich reasion "
 }
