@@ -7,7 +7,7 @@
 5. Latest Generalized Splat Operator - Returns the List
 */
 /*
-This out values will not wor
+This out values will not work for this configurations 
 
 output "public_ip" {
   description = "public ip"
