@@ -39,7 +39,7 @@ value = {for c, instance in aws_aws_instance.my_05_l_m: c => instance.public_ip}
 
 # Output Legacy Splat Operator (Legacy) - Returns the List
 
-output "lag" {
+output "legacy_" {
   
 }
 
