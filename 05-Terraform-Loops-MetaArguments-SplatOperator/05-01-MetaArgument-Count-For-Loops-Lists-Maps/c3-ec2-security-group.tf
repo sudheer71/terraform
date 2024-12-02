@@ -5,6 +5,7 @@ resource "aws_security_group" "vpc_ssh" {
     description = "allow SSH port inbound rules"
     from_port = 22
     to_port = 22
-    protocol = ""
+    protocol = "tcp"
+    cidr_blocks = []
   }
 }
