@@ -23,6 +23,6 @@ output "public_dns" {
 
 output "public_ip" {
   description = "For Loop with List"
-  value = []
+  value = [for instance in ]
 }
 
