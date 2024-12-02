@@ -37,3 +37,5 @@ output "name" {
   description = "for loop with map advanced"
   value = {for c, instance in aws_instance.myP_05_l_M: c => instance.public_ip}
 }
+
+# Output Legacy Splat Operator (Legacy) - Returns the List
