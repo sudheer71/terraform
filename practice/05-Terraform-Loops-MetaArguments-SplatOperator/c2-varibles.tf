@@ -17,5 +17,5 @@ variable "region" {
 }
 
 variable "instance_type" {
-  
+  description = "value"
 }
