@@ -17,5 +17,5 @@ variable "region" {
 }
 
 variable "instance_type" {
-  description = "instance type for "
+  description = "List instance type for "
 }
