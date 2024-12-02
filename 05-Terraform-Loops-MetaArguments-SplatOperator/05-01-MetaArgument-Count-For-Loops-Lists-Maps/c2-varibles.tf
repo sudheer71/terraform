@@ -20,6 +20,7 @@ variable "reasion" {
 
 variable "instance_type" {
     description = "instance type"
+    type = map()
 
   
 }
