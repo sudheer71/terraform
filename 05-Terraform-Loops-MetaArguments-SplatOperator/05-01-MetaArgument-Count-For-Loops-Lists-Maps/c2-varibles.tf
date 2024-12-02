@@ -24,7 +24,7 @@ variable "instance_type" {
     default = {
       "dev" = "t3.micro"
       "qa" = "t3small"
-      "prod" t3.la
+      "prod" "t3.large"
     }
 
   
