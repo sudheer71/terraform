@@ -44,3 +44,4 @@ output "public_dns" {
   description = "public DNS using the splat opperators"
   value = aws_instance.myP_05_l_M.*.public_dns
 }
+
