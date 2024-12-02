@@ -28,7 +28,7 @@ variable "instance_type_map" {
   description = "instance type"
   type        = map(string)
   default = {
-    "dev"  = "t3.micro"
+    "dev"  = "t2.micro"
     "qa"   = "t3small"
     "prod" = "t3.large"
   }
