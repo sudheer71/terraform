@@ -48,5 +48,6 @@ output "legacy_splat_instance_publicdns" {
 # Output Latest Generalized Splat Operator - Returns the List
 
 output "latest_splat_instance_publicdns" {
-  description = "Public DNS using the latest Splate Opp"
+  description = "Public DNS using the latest Splate Opperators"
+  value = 
 }
