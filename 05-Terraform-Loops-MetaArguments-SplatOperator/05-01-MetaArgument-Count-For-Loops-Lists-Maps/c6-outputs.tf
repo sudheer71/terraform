@@ -37,5 +37,5 @@ value = {for c, instance in aws_aws_instance.my_05_l_m: c => instance.public_ip}
   
 }
 
-
+#
 
