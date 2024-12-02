@@ -35,5 +35,5 @@ output "public_ip" {
 # Output - For Loop with Map Advanced
 output "name" {
   description = "for loop with map advanced"
-  value = [for c,]
+  value = [for c, instance in aw]
 }
