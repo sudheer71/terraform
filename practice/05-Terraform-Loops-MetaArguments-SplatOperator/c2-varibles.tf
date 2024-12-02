@@ -23,6 +23,8 @@ variable "instance_type" {
   default = [ "t3.micro", "t3.small", "t3.large" ]
 }
 
+# AWS EC2 Instance Type - Map
+
 variable "" {
   
 }
