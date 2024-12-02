@@ -47,6 +47,6 @@ output "legacy_splat_instance_publicdns" {
 
 # Output Latest Generalized Splat Operator - Returns the List
 
-output "legacy_splat_instance_publicdns" {
+output "latest_splat_instance_publicdns" {
   description = "value"
 }
