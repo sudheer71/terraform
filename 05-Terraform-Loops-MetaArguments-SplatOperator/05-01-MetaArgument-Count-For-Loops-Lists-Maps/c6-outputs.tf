@@ -7,8 +7,10 @@
 5. Latest Generalized Splat Operator - Returns the List
 */
 
+
 # 1. For Loop with List
 output "public_ip_list" {
-    
+value = ""
+
   
 }
