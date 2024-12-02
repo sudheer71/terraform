@@ -24,6 +24,6 @@ variable "instance_type" {
 }
 
 # AWS EC2 Instance Type - Map
-variable "ins" {
+variable "instance_type" {
   
 }
