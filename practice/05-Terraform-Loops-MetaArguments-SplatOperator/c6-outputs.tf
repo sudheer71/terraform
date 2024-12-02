@@ -26,6 +26,6 @@ output "public_ip" {
   value = [for instance in aws_instance.myP_05_l_M: instance.public_ip]
 }
 
-output "name" {
+output "" {
   
 }
