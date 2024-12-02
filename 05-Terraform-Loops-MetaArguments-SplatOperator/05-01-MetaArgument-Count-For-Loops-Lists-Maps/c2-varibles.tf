@@ -15,3 +15,6 @@ variable "reasion" {
   type = string
 
 }
+
+# AWS EC2 Instance Type - List
+
