@@ -23,7 +23,7 @@ resource "aws_security_group" "vps_web" {
     description = "allow port web"
 
     ingress {
-        description = ""
+        description = "Allow port "
     }
   
 }
