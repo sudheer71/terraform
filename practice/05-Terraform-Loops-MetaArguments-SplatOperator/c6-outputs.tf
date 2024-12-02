@@ -40,7 +40,7 @@ output "name" {
 
 # Output Legacy Splat Operator (Legacy) - Returns the List
 
-output "public_dns" {
+output "legacy_splat_instance_publicdns" {
   description = "public DNS using the splat opperators"
   value = aws_instance.myP_05_l_M.*.public_dns
 }
