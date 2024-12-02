@@ -44,7 +44,7 @@ output "legacy_splat_instance_publicdns" {
     description = "public DNS using the legacy splat opperators" 
 }
 
-output "name" {
+output "latest" {
   
 }
 
