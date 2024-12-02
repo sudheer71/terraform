@@ -1,5 +1,5 @@
 resource "aws_instance" "my_05_l_m" {
-ami = data.aws_ami.myamazon_ami
+ami = data.aws_ami.myamazon_ami.id
 key_name = var.key_name
 user_data = file("${path.module}/app1.install.sh")
 instance_type = var.instance_type[0]
