@@ -10,6 +10,7 @@ variable "key_name" {
 }
 
 variable "reasion" {
-  description = "in whcich reasion resources to launch"
-  
+  description = "In whcich reasion resources to launch"
+  default = 
+
 }
