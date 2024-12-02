@@ -24,7 +24,7 @@ resource "aws_security_group" "vps_web" {
 
     ingress {
         description = "Allow port for http inbound"
-        
+        from_port = 
 
     }
   
