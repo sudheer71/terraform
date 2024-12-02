@@ -30,3 +30,7 @@ output "public" {
   description = "for loop with map"
   value = [for instance in aws_instance.myP_05_l_M: instance.id => instance.public_ip]
 }
+
+output "name" {
+  
+}
