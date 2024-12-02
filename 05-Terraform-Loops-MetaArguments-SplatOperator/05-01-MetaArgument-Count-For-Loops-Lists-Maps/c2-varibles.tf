@@ -19,6 +19,7 @@ variable "reasion" {
 # AWS EC2 Instance Type - List
 
 variable "instance_type" {
-    description = "value"
+    description = "instance type"
+    
   
 }
