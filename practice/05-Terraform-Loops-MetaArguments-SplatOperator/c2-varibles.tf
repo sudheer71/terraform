@@ -20,5 +20,5 @@ variable "region" {
 variable "instance_type" {
   description = "EC2 instance"
   type = list(string)
-  
+  default = [ "value" ]
 }
