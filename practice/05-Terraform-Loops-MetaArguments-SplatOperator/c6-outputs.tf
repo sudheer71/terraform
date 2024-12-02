@@ -45,6 +45,8 @@ output "public_dns" {
   value = aws_instance.myP_05_l_M.*.public_dns
 }
 
+# Output Latest Generalized Splat Operator - Returns the List
+
 output "name" {
   description = "value"
 }
