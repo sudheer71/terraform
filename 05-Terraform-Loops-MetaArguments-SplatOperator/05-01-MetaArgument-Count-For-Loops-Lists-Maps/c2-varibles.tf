@@ -18,6 +18,6 @@ variable "reasion" {
 
 # AWS EC2 Instance Type - List
 
-variable "" {
+variable "instance_type" {
   
 }
