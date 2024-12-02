@@ -1,4 +1,4 @@
 variable "instance_type" {
   description = "instance type"
-  type = 
+  type = string
 }
