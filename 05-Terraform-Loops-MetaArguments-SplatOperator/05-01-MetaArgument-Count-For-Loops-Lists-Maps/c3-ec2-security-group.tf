@@ -39,5 +39,7 @@ resource "aws_security_group" "vps_web" {
     egress {
         description = "Allow All ports outbound"
         from_port = 0
+        to_port = 0
+        protocol = "-1"
     }
 }
