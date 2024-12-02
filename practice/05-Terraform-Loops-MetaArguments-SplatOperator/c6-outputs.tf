@@ -28,5 +28,5 @@ output "public_ip" {
 
 output "public" {
   description = "for loop with map"
-  value = 
+  value = [for instance in ]
 }
