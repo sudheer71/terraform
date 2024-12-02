@@ -6,10 +6,13 @@
 4. Legacy Splat Operator (latest) - Returns List
 5. Latest Generalized Splat Operator - Returns the List
 */
+
 output "public_ip" {
   description = "public ip"
   value = aws_instance.my_05_l_m.public_ip
 }
+
+
 
 # 1. For Loop with List
 output "public_ip_list" {
