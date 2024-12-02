@@ -14,7 +14,7 @@ output "public_ip" {
 
 output "public_dns" {
   description = "public dns"
-  value = aws
+  value = aws_instance.my_05_l_m.public_dns
 }
 
 # 1. For Loop with List
