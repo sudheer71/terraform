@@ -7,7 +7,8 @@
 5. Latest Generalized Splat Operator - Returns the List
 */
 output "public_ip" {
-  description = ""
+  description = "public ip"
+  
 }
 
 # 1. For Loop with List
