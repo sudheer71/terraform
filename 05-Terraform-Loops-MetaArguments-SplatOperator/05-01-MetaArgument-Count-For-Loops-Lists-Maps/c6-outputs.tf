@@ -8,7 +8,7 @@
 */
 output "public_ip" {
   description = "public ip"
-  
+  value = 
 }
 
 # 1. For Loop with List
