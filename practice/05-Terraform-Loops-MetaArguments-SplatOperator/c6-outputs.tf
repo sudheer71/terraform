@@ -27,5 +27,5 @@ output "public_ip" {
 }
 
 output "public" {
-  
+  de
 }
