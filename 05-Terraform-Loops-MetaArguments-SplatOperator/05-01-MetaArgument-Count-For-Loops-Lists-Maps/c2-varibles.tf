@@ -1,3 +1,3 @@
-variable "in" {
+variable "instance_type" {
   
 }
