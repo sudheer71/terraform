@@ -36,4 +36,5 @@ resource "aws_security_group" "vps_web" {
         protocol = "tcp"
         cidr_blocks = ["0.0.0.0/0"]
     }
+    egress = 
 }
