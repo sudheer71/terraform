@@ -16,7 +16,7 @@ variable "region" {
   type        = string
 }
 
-# AWS EC2 Instance Type - List
+x
 variable "instance_type_list" {
   description = "EC2 instance"
   type        = list(string)
