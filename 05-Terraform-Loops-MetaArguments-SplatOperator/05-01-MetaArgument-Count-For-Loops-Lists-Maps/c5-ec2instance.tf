@@ -3,6 +3,6 @@ ami = ""
 key_name = ""
 user_data = ""
 instance_type = ""
-vpc_security_group_ids = 
+vpc_security_group_ids = ""
   
 }
