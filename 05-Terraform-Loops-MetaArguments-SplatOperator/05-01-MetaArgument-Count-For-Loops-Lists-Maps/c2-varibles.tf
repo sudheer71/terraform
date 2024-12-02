@@ -22,7 +22,7 @@ variable "instance_type" {
     description = "instance type"
     type = map(string)
     default = {
-      "name" = "value"
+      "dev" = "value"
     }
 
   
