@@ -11,6 +11,7 @@ variable "key_name" {
 
 variable "reasion" {
   description = "In whcich reasion resources to launch"
-  default = "us "
+  default = "us-east-1"
+  
 
 }
