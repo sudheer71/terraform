@@ -37,14 +37,14 @@ value = {for c, instance in aws_aws_instance.my_05_l_m: c => instance.public_ip}
   
 }
 
-# Output Legacy Splat Operator (Legacy) - Returns the List
+# 4.Output Legacy Splat Operator (Legacy) - Returns the List
 
 output "legacy_splat_instance_publicdns" {
     value = aws_instance.my_05_l_m.*.public_dns
     description = "public DNS using the legacy splat opperators" 
 }
 
-# Output Latest Generalized Splat Operator - Returns the List
+# 5.Output Latest Generalized Splat Operator - Returns the List
 output "latest_splat_instance_publicdns" {
   value = aws_instance.my_05_l_m[*].public_dns
   description = "Public DNS using the latest Splate Opperators"
