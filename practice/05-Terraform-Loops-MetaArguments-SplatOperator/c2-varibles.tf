@@ -17,7 +17,7 @@ variable "region" {
 }
 
 # AWS EC2 Instance Type - List
-variable "instance_type" {
+variable "instance_type_list" {
   description = "EC2 instance"
   type = list(string)
   default = [ "t3.micro", "t3.small", "t3.large" ]
