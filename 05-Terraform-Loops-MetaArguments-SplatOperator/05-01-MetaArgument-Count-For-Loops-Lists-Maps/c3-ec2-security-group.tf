@@ -26,7 +26,8 @@ resource "aws_security_group" "vps_web" {
         description = "Allow port for http inbound"
         from_port = 80
         to_port = 80
-        protocol = 
+        protocol = "tcp"
+        cidr_blocks = 
 
     }
   
