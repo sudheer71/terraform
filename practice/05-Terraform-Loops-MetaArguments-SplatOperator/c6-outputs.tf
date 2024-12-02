@@ -8,3 +8,4 @@ output "public_dns" {
   value       = aws_instance.myP_05_l_M.public_dns
 
 }
+
