@@ -6,8 +6,8 @@
 4. Legacy Splat Operator (latest) - Returns List
 5. Latest Generalized Splat Operator - Returns the List
 */
-output "public" {
-  
+output "public_ip" {
+  description = ""
 }
 
 # 1. For Loop with List
