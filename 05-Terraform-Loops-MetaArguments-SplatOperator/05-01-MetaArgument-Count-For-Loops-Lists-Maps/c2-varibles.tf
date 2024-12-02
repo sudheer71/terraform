@@ -15,6 +15,8 @@ variable "reasion" {
   type = string
 
 }
+# AWS EC2 Instance Type - List
+
 
 # AWS EC2 Instance Type - map
 
