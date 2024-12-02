@@ -39,3 +39,7 @@ output "name" {
 }
 
 # Output Legacy Splat Operator (Legacy) - Returns the List
+
+output "name" {
+  
+}
