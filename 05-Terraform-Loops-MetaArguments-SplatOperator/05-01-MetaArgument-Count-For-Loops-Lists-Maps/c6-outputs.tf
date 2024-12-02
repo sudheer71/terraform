@@ -8,7 +8,7 @@
 */
 output "public_ip" {
   description = "public ip"
-  value = aws_instance.my_05_l_m.pub
+  value = aws_instance.my_05_l_m.public_ip
 }
 
 # 1. For Loop with List
