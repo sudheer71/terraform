@@ -21,4 +21,7 @@ output "public_dns" {
 
 # 1. For Loop with List
 
+output "public" {
+  
+}
 
