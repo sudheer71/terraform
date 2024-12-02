@@ -6,6 +6,6 @@ instance_type = var.instance_type[0]
 vpc_security_group_ids = [ aws_security_group.vpc_ssh.id,aws_security_group.vps_web.id ]
 count = 2
 tags = {
-    Name = ""
+    Name = "count"
 }
 }
