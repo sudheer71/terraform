@@ -21,5 +21,5 @@ resource "aws_instance" "my_ec2_azd" {
 }
 
 # note: The for_each meta-argument accepts a "map" or a "set" of strings creates an instance for each item in that map or set.
-# when you are working with map "key" = "value" example 
+# when you are working with map "key" = "value" example : 
 # when you are working with set 
