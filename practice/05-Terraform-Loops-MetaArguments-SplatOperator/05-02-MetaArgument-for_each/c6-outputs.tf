@@ -1,4 +1,4 @@
 output "public_ip_list" {
-    value = [for instance ]
+    value = [for instance in aws]
   
 }
