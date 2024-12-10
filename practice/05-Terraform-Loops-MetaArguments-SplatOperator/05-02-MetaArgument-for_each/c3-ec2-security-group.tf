@@ -1,3 +1,3 @@
-resource "aws_security_group" "my_ec2_azd" {
+resource "aws_security_group" "my_ec2_azd_security" {
   
 }
