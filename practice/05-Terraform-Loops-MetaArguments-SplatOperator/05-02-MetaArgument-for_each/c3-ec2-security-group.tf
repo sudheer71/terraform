@@ -21,6 +21,6 @@ resource "aws_security_group" "my_ec2_azd_sg_ssh" {
 
 ## Security group to allow web Traffice
 
-resource "aws_security_group" "na" {
+resource "aws_security_group" "" {
   
 }
