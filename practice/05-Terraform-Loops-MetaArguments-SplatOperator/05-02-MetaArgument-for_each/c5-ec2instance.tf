@@ -1,12 +1,11 @@
 ## aws Avilability zone datasource 
 data "aws_availability_zones" "my_azs" {
     filter {
-      name = ""
-      values = ""
+      name   = "opt-in-status"
+    values = ["opt-in-not-required"]
     }
   
 }
-
 
 ## meta_aurgment_for_each_az_d
 resource "aws_instance" "my_ec2_azd" {
