@@ -8,6 +8,6 @@
 
 # # Additional Important Note about OUTPUTS when for_each used
 - The [*] and .* operatoes intended for use with lists only.
-- because this resources uses for_each rather than count,ts value in other expressions
+- because this resources uses for_each rather than count,ts value in other expressions is a toset or map not list 
 
 
