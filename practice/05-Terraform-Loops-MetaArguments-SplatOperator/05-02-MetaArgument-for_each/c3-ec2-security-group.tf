@@ -30,6 +30,6 @@ resource "aws_security_group" "my_ec2_azd_sg_web" {
     from_port = 80
     to_port = 80
     protocol = "tcp"
-    cidr_blocks = 
+    cidr_blocks = [ "0.0.0.0" ]
   }
 }
