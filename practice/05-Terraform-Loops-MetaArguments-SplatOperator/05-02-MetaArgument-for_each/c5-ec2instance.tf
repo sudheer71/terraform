@@ -1,5 +1,5 @@
 ## aws Avilability zone datasource 
-data "aws_avi" "name" {
+data "aws_availability_zones" "name" {
   
 }
 
