@@ -1,6 +1,8 @@
 ## aws Avilability zone datasource 
 data "aws_availability_zones" "my_azs" {
-    
+    filter {
+      name = 
+    }
   
 }
 
