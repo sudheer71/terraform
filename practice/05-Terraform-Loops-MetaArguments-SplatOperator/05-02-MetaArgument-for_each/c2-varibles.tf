@@ -31,6 +31,7 @@ variable "instance_type_map" {
   type = map(string)
   default = {
     "dev" = "t2.micro"
-    "qa" = "t3"
+    "qa" = "t3small"
+    prod
   }
 }
