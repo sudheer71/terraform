@@ -19,5 +19,5 @@ variable "instance_type" {
 variable "instance_type_list" {
   description = "ec2 instance"
   type = list(string)
-  default = [ "t2.micro","t3.small", ]
+  default = [ "t2.micro","t3.small","t3" ]
 }
