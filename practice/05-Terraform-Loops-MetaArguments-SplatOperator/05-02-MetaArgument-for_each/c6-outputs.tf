@@ -15,5 +15,5 @@ value = { for instance in aws_instance.my_ec2_azd : instance.id => instance.publ
 }
 
 output "public_ip_map_advanced" {
-  value = {for }
+  value = {for c, instance }
 }
