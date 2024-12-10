@@ -1,3 +1,3 @@
-data "aws_ami" "my_ec2_azd" {
+data "aws_ami" "my_ec2_azd_" {
   
 }
