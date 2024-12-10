@@ -19,3 +19,5 @@ resource "aws_instance" "my_ec2_azd" {
     Name = "for_each-demo-${each.value}"
   }
 }
+
+#
