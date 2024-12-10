@@ -20,4 +20,4 @@ resource "aws_instance" "my_ec2_azd" {
   }
 }
 
-# note: 
+# note: The for_each meta-argument accepts a map or a set of strings
