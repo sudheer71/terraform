@@ -4,6 +4,6 @@ variable "reagion" {
   default = "us-east-1"
 }
 
-variable "" {
-  
+variable "key_name" {
+  description = "value"
 }
