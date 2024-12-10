@@ -5,5 +5,6 @@ variable "reagion" {
 }
 
 variable "key_name" {
-  description = "instance"
+  description = "instance key name"
+  type = 
 }
