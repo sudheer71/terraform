@@ -1,6 +1,6 @@
 ## meta_aurgment_for_each_az_d
 resource "aws_instance" "my_ec2_azd" {
-  ami = ""
+  ami = data.aws_ami.my_ec2_azd_ami
   key_name = ""
   instance_type = ""
   vpc_security_group_ids = ""
