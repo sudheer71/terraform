@@ -1,4 +1,4 @@
 output "public_ip_list" {
-    value = [for]
+    value = [for instance ]
   
 }
