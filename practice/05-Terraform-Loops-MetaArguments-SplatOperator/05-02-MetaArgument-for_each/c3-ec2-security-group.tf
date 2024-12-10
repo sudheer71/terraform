@@ -1,3 +1,3 @@
-resource "aws" "name" {
+resource "aws_security_group" "name" {
   
 }
