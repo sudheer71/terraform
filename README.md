@@ -9,7 +9,7 @@
 
 # Additional Important Note about OUTPUTS when for_each used
 
-/*
+```t
 # Additional Important Note about OUTPUTS when for_each used
 1. The [*] and .* operators are intended for use with lists only. 
 2. Because this resource uses for_each rather than count, 
