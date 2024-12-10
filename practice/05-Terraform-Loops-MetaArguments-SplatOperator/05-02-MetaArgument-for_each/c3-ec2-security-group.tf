@@ -17,3 +17,4 @@ resource "aws_security_group" "my_ec2_azd_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
+
