@@ -22,3 +22,4 @@ resource "aws_instance" "my_ec2_azd" {
 
 # note: The for_each meta-argument accepts a "map" or a "set" of strings
 # when you are working with map "key" = "value"
+# 
