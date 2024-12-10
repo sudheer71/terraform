@@ -1,3 +1,4 @@
-resource "aws_instance" "meta_aurgment_for_each_az_d" {
+## meta_aurgment_for_each_az_d
+resource "aws_instance" "" {
   
 }
