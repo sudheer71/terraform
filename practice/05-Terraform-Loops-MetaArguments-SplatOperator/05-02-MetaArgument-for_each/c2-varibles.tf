@@ -1,5 +1,5 @@
 variable "reagion" {
   description = "reagion"
   type = string
-  default = "us-"
+  default = "us-east-1"
 }
