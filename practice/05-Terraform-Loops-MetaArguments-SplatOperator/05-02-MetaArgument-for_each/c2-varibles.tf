@@ -23,4 +23,5 @@ variable "instance_type_list" {
   type = list(string)
   default = [ "t2.micro","t3.small","t3larg" ]
 }
-# 
+
+# AWS EC2 Instance Type - Map
