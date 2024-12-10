@@ -31,5 +31,5 @@ name     = each.key
 location = each.value
 
 set example
-name     = each.key or each.v
+name     = each.key or each.value
 */
