@@ -15,5 +15,7 @@ resource "aws_instance" "my_ec2_azd" {
   vpc_security_group_ids = [ aws_security_group.my_ec2_azd_sg_ssh.id,aws_security_group.my_ec2_azd_sg_web.id ]
   for_each = toset(data.aws_availability_zones.my_azs.names)
   availability_zone = each.key
-  
+  tags = {
+    
+  }
 }
