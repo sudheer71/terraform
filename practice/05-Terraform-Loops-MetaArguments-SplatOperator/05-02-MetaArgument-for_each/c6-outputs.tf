@@ -11,5 +11,5 @@ output "public_ip_list" {
 
 }
 output "public_ip_map" {
-value = 
+value = { for instance in aws_}
 }
