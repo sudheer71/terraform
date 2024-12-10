@@ -8,5 +8,6 @@
 
 # # Additional Important Note about OUTPUTS when for_each used
 - The [*] and .* operatoes intended for use with lists only.
+- because this resources uses 
 
 
