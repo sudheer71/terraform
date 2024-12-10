@@ -28,4 +28,5 @@ variable "instance_type_list" {
 
 variable "instance_type_map" {
   description = "ec2 instance"
+  type = map()
 }
