@@ -1,3 +1,3 @@
-variable "ami" {
+variable "reagion" {
   description = "ami"
 }
