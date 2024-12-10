@@ -40,6 +40,7 @@ resource "aws_security_group" "my_ec2_azd_sg_web" {
     cidr_blocks = [ "0.0.0.0/0" ]
   }
   egress {
-    description = "Allow all traffice to "
+    description = "Allow all traffice to outbound traffice"
+    from_port = 
   }
 }
