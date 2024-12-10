@@ -27,6 +27,6 @@ resource "aws_security_group" "my_ec2_azd_sg_web" {
 
   ingress {
     description = "Allow HTTP traffice"
-    
+    from_port = 
   }
 }
