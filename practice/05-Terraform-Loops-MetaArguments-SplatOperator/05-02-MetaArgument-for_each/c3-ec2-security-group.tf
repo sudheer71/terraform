@@ -6,6 +6,7 @@ resource "aws_security_group" "my_ec2_azd_sg" {
     description = "Allow ssh port inbound ruels"
     from_port = 22
     to_port = 22
-    protocol = 
+    protocol = "tcp"
+    cidr_blocks = 
   }
 }
