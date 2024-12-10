@@ -27,5 +27,5 @@ variable "instance_type_list" {
 # AWS EC2 Instance Type - Map
 
 variable "instance_type_map" {
-  description = "ec2 inst"
+  description = "ec2 instance"
 }
