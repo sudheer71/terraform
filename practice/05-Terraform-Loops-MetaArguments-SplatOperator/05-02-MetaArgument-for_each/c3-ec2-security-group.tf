@@ -13,6 +13,6 @@ resource "aws_security_group" "my_ec2_azd_sg" {
     description = "Allow all ip and ports outbond"
     from_port = 0
     to_port = 0
-    
+    protocol = 
   }
 }
