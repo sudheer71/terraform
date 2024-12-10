@@ -4,5 +4,6 @@ resource "aws_instance" "my_ec2_azd" {
   key_name = var.key_name
   instance_type = var.instance_type
   vpc_security_group_ids = [ aws_security_group.my_ec2_azd_sg_ssh.id,aws_security_group.my_ec2_azd_sg_web.id ]
+  
   availability_zone = ""
 }
