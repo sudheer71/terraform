@@ -1,3 +1,3 @@
-resource "aws_instance" "" {
+resource "aws_instance" "meta_aurgment_" {
   
 }
