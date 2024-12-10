@@ -26,6 +26,6 @@ resource "aws_security_group" "my_ec2_azd_sg_web" {
   description = "Allow inbound web traffice"
 
   ingress {
-    description = ""
+    description = "Allow HTTP "
   }
 }
