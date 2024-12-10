@@ -1,4 +1,5 @@
 variable "reagion" {
   description = "reagion"
-  type = 
+  type = string
+  v
 }
