@@ -11,5 +11,5 @@ output "public_ip_list" {
 
 }
 output "public_ip_map" {
-  value = for instance in aws_aws_instance.my_ec2_azd : instance.id => instance.publ]
+value = []
 }
