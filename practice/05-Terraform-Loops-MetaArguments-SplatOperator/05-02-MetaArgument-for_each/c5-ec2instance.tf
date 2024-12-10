@@ -25,5 +25,6 @@ resource "aws_instance" "my_ec2_azd" {
 # when you are working with set 
 
 /*
+map
 example : name = each.key , location each.value
 */
