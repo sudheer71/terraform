@@ -1,4 +1,4 @@
 output "public_ip" {
-    value = 
+    value = aws_instance.my_ec2_azd
   
 }
