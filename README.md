@@ -9,11 +9,14 @@
 
 # Additional Important Note about OUTPUTS when for_each used
 
-- The [*] and .* operators are intended for use with lists only. 
-- Because this resource uses for_each rather than count, 
+/*
+# Additional Important Note about OUTPUTS when for_each used
+1. The [*] and .* operators are intended for use with lists only. 
+2. Because this resource uses for_each rather than count, 
 its value in other expressions is a toset or a map, not a list.
-- With that said, we can use Function "toset" and loop with "for" 
+3. With that said, we can use Function "toset" and loop with "for" 
 to get the output for a list
-- For maps, we can directly use for loop to get the output and if we 
+4. For maps, we can directly use for loop to get the output and if we 
 want to handle type conversion we can use "tomap" function too 
+*/
 
