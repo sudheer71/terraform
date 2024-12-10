@@ -27,4 +27,6 @@ resource "aws_instance" "my_ec2_azd" {
 /*
 map
 example : name = each.key , location each.value
+name     = each.key
+  location = each.value
 */
