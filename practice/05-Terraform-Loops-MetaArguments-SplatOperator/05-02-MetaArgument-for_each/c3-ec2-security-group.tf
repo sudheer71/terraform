@@ -35,6 +35,7 @@ resource "aws_security_group" "my_ec2_azd_sg_web" {
   ingress {
     description = "Allow HTTPS traffice"
     from_port = 443
-    
+    to_port = 443
+    protocol = 
   }
 }
