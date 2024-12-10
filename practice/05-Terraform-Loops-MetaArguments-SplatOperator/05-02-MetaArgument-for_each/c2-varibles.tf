@@ -1,3 +1,3 @@
 variable "reagion" {
-  description = "ami"
+  description = "reagion"
 }
