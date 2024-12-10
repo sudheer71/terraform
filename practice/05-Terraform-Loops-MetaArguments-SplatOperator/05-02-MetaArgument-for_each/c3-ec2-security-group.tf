@@ -4,6 +4,8 @@ resource "aws_security_group" "my_ec2_azd_sg" {
 
   ingress {
     description = "Allow ssh port inbound ruels"
-    from_port = 
+    from_port = 22
+    to_port = 22
+    protocol = 
   }
 }
