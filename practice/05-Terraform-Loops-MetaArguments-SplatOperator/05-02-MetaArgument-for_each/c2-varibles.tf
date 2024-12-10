@@ -10,3 +10,6 @@ variable "key_name" {
   default = "terraform"
 }
 
+variable "instance_type" {
+  
+}
