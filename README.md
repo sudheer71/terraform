@@ -5,8 +5,10 @@
 - [Master Document](https://docs.google.com/document/d/1gxrXjFOEs04j6hU5kVAcqU4UTRpJhQIHoBRnalo5ptM/edit?pli=1&tab=t.0)
 
 
-/*
+
+
 # Additional Important Note about OUTPUTS when for_each used
+
 1. The [*] and .* operators are intended for use with lists only. 
 2. Because this resource uses for_each rather than count, 
 its value in other expressions is a toset or a map, not a list.
