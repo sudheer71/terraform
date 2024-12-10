@@ -4,4 +4,5 @@ resource "aws_instance" "my_ec2_azd" {
   key_name = ""
   instance_type = ""
   vpc_security_group_ids = ""
+  availability_zone = ""
 }
