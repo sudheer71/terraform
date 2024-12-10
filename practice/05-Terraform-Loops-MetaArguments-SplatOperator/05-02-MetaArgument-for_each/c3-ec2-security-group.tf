@@ -23,5 +23,6 @@ resource "aws_security_group" "my_ec2_azd_sg_ssh" {
 
 resource "aws_security_group" "my_ec2_azd_sg_web" {
   name = "Allow web traffice"
-  description = "Allow in"
+  description = "Allow inbound web traffice"
+  
 }
