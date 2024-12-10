@@ -1,4 +1,7 @@
-## aws Avilability zone datasource
+## aws Avilability zone datasource 
+data "aws" "name" {
+  
+}
 
 
 ## meta_aurgment_for_each_az_d
