@@ -1,3 +1,3 @@
-output "name" {
+output "legacy_splat_instance_publicdns" {
   
 }
