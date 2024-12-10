@@ -18,5 +18,6 @@ variable "instance_type" {
 
 variable "instance_type_list" {
   description = "ec2 instance"
+  type = list(string)
   
 }
