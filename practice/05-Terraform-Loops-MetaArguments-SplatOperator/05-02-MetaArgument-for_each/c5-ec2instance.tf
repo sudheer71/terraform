@@ -3,4 +3,5 @@ resource "aws_instance" "my_ec2_azd" {
   ami = ""
   key_name = ""
   instance_type = ""
+  vpc_security_group_ids = ""
 }
