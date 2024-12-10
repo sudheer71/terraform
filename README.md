@@ -7,6 +7,6 @@
 
 
 # # Additional Important Note about OUTPUTS when for_each used
-- The [*] and .* operatoes 
+- The [*] and .* operatoes ini
 
 
