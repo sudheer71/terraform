@@ -16,6 +16,8 @@ variable "instance_type" {
   default = "t2.micro"
 }
 
+
+# AWS EC2 Instance Type - List
 variable "instance_type_list" {
   description = "ec2 instance"
   type = list(string)
