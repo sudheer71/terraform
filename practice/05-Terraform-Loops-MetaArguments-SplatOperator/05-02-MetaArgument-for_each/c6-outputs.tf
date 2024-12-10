@@ -7,5 +7,5 @@ output "latest_splat_instance_publicdns" {
 }
 
 output "public_ip_list" {
-  [for instance in aws_]
+  value = []
 }
